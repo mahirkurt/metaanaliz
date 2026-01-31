@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh -o ConnectTimeout=15 -o StrictHostKeyChecking=no -o ProxyCommand=\"cloudflared access ssh --hostname %h\" mahirkurt@ssh-hp.cureonics.com:*)",
+      "Bash(ssh:*)",
+      "Bash(rsync:*)",
+      "Bash(scp:*)",
+      "WebFetch(domain:data.europa.eu)",
+      "WebFetch(domain:www.ema.europa.eu)",
+      "Bash(python -m tools.ema_epar:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}

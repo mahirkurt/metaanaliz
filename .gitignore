@@ -1,0 +1,38 @@
+# Environment variables with sensitive information
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (keep structure but not sensitive data)
+logs/*.log
+logs/audit_log.jsonl
+
+# Downloads
+downloads/
+
+# Large files
+*.pdf
+*.xlsx
+*.docx

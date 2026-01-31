@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "biocontext_kb": {
+      "command": "/home/mahirkurt/.local/bin/uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "biocontext_kb@latest"
+      ]
+    },
+    "meta-analysis-skills": {
+      "command": "/home/mahirkurt/.local/bin/uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "skill_to_mcp",
+        "--skills-dir",
+        "${workspaceFolder}/skills"
+      ]
+    },
+    "paper-search": {
+      "command": "/home/mahirkurt/.local/bin/uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "paper-search-mcp",
+        "python",
+        "-m",
+        "paper_search_mcp.server"
+      ],
+      "env": {
+        "PAPER_SEARCH_DOWNLOAD_DIR": "${workspaceFolder}/data/raw/pdfs/paper_search",
+        "SEMANTIC_SCHOLAR_API_KEY": "WqVVxSwNIJ1SInNUrrbk450qqGP1izC47h1rah9s"
+      }
+    }
+  }
+}

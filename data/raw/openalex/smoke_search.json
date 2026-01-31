@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "count": 1032,
+    "db_response_time_ms": 43,
+    "page": null,
+    "per_page": 5,
+    "next_cursor": "Ils3NjguODk1NDUsIDEzMDE2MTYwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMTU4MDcxNTk0MyddIg==",
+    "groups_count": null
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2105610837",
+      "doi": "https://doi.org/10.1016/j.jaad.2007.06.006",
+      "title": "Adapalene-benzoyl peroxide, a fixed-dose combination for the treatment of acne vulgaris: Results of a multicenter, randomized double-blind, controlled study",
+      "publication_year": 2007
+    },
+    {
+      "id": "https://openalex.org/W174187323",
+      "doi": null,
+      "title": "A North American study of adapalene-benzoyl peroxide combination gel in the treatment of acne.",
+      "publication_year": 2009
+    },
+    {
+      "id": "https://openalex.org/W2170428123",
+      "doi": "https://doi.org/10.1111/j.1365-2133.2009.09209.x",
+      "title": "Adapalene-benzoyl peroxide, a unique fixed-dose combination topical gel for the treatment of acne vulgaris: a transatlantic, randomized, double-blind, controlled study in 1670 patients",
+      "publication_year": 2009
+    },
+    {
+      "id": "https://openalex.org/W2118504352",
+      "doi": "https://doi.org/10.1016/j.jaad.2010.03.036",
+      "title": "The efficacy of adapalene-benzoyl peroxide combination increases with number of acne lesions",
+      "publication_year": 2011
+    },
+    {
+      "id": "https://openalex.org/W1580715943",
+      "doi": "https://doi.org/10.1111/j.1365-2133.2011.10344.x",
+      "title": "A 6-month maintenance therapy with adapalene-benzoyl peroxide gel prevents relapse and continuously improves efficacy among patients with severe acne vulgaris: results of a randomized controlled trial",
+      "publication_year": 2011
+    }
+  ],
+  "group_by": []
+}

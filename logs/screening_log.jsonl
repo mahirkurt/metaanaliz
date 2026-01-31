@@ -1,0 +1,2 @@
+{"record_id":"...","source":"EuropePMC|Scholar|...","stage":"title_abstract|full_text","decision":"include|exclude|maybe","reasons":["population mismatch"],"reviewer":"agent|human","timestamp":"YYYY-MM-DDTHH:mm:ssZ","notes":""}
+{"record_id": "doi:10.1000/xyz", "source": "EuropePMC", "stage": "title_abstract", "decision": "exclude", "reasons": ["not comparative"], "reviewer": "agent", "timestamp": "2026-01-31T14:27:05+00:00", "notes": ""}

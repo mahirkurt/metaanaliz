@@ -1,0 +1,31 @@
+source,interface,datetime_utc,query,filters,sort,results_total,exported_format,export_scope,endpoint,notes
+PubMed,API (E-utilities),,,"language=none; date=inception-to-present",relevance,,,xml/json,"retmax=...; batches=...","https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi | efetch.fcgi","tool=...; email=...; api_key_used=yes/no; usehistory=yes/no"
+Embase,UI,,,,,,RIS,"all / segmented export",,"""Export limit"" varsa parça parça indirildi; Emtree+free-text"
+Scopus,API,,,,,,CSV/JSON,"all / paged",https://api.elsevier.com/content/search/scopus,"X-ELS-APIKey used; InstToken used=yes/no"
+Web of Science,API,,,,,,CSV/JSON,"all / paged",,"Starter/Expanded; portal credentials; retry/backoff"
+Cochrane CENTRAL,UI,,,,,,RIS/CSV,"all / segmented",,"Cochrane Library erişim tipi: VPN/IP/auth"
+Europe PMC,API,,,,,,JSON,"pageSize=...",https://www.ebi.ac.uk/europepmc/webservices/rest/search,
+Semantic Scholar,API,,,,,,JSON,"limit=...; offset=...",https://api.semanticscholar.org/graph/v1/paper/search,"429 backoff"
+Google Scholar,UI,,,,,,(manual),"pages=1-...",,"No official API; ToS/robots constraints"
+ClinicalTrials.gov,API,,,,,,JSON,"pageSize=...",https://clinicaltrials.gov/api/v2/studies,
+WHO ICTRP,UI,,,,,,(manual),"pages=1-...",,"Export/indirilebilir kayıt yöntemi notu"
+openFDA,API,,,,,,JSON,"limit=...",https://api.fda.gov/drug/label.json,"api_key_used=yes/no"
+EMA EPAR / EU Open Data,Dataset download,,,,,,CSV/XLSX,"snapshot date=...",,"Dataset URL + erişim tarihi"
+Wiley TDM,API,2026-01-31T15:04:48+00:00,doi:10.1002/net.22207,,,1,pdf,single,https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002/net.22207,dry_run=yes; status=200
+Wiley TDM,API,2026-01-31T15:06:01+00:00,doi:10.1002/net.22207,,,1,pdf,single,https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002/net.22207,dry_run=yes; status=200
+Wiley TDM,API,2026-01-31T15:06:40+00:00,doi:10.1002/net.22207,,,1,pdf,single,https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002/net.22207,dry_run=yes; status=200
+Wiley TDM,API,2026-01-31T15:08:09+00:00,doi:10.1002/net.22207,,,1,pdf,single,https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002/net.22207,dry_run=yes; status=200
+Wiley TDM,API,2026-01-31T15:19:16+00:00,doi:10.1002/net.22207,,,1,pdf,single,https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002/net.22207,dry_run=yes; status=200
+Wiley TDM,API,2026-01-31T15:19:50+00:00,doi:10.1002/net.22207,,,1,pdf,single,https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002/net.22207,saved=data/raw/pdfs/paper_search/10.1002_net.22207.pdf; meta_json=yes
+Europe PMC,API,2026-01-31T15:27:37+00:00,"TITLE:""adapalene"" AND TITLE:""benzoyl peroxide""",,,140,json,page=1;pageSize=5,https://www.ebi.ac.uk/europepmc/webservices/rest/search,saved=data/raw/europe_pmc/smoke_test.json; email=drmahirkurt@gmail.com; resultType=lite
+Europe PMC,API,2026-01-31T15:43:44+00:00,"TITLE:""adapalene"" AND TITLE:""benzoyl peroxide""",,,140,json,page=1;pageSize=5,https://www.ebi.ac.uk/europepmc/webservices/rest/search,saved=data/raw/europe_pmc/core_smoke_test.json; email=drmahirkurt@gmail.com; resultType=core
+NCBI E-utilities (pubmed),API,2026-01-31T15:47:10+00:00,(adapalene[tiab]) AND (benzoyl peroxide[tiab]),,,227,json,retstart=0;retmax=5,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi,saved=data/raw/ncbi/pubmed_smoke_esearch.json; email=drmahirkurt@gmail.com; api_key=yes
+NCBI E-utilities (pubmed),API,2026-01-31T15:47:11+00:00,"ids:41552868,41416232",,,,xml,ids,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi,saved=data/raw/ncbi/pubmed_smoke_efetch.xml; email=drmahirkurt@gmail.com
+NCBI E-utilities (pmc),API,2026-01-31T15:47:12+00:00,(adapalene[tiab]) AND (benzoyl peroxide[tiab]),,,589,json,retstart=0;retmax=3,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi,saved=data/raw/ncbi/pmc_smoke_esearch.json; email=drmahirkurt@gmail.com; api_key=yes
+NCBI E-utilities (pubmed),API,2026-01-31T15:50:35+00:00,(adapalene[tiab]) AND (benzoyl peroxide[tiab]),,,227,json,retstart=0;retmax=3,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi,saved=data/raw/ncbi/pubmed_demo.json; email=drmahirkurt@gmail.com; api_key=yes
+OpenAlex,API,2026-01-31T15:54:55+00:00,adapalene benzoyl peroxide,,,1032,json,cursor=*;per-page=5,https://api.openalex.org/works,saved=data/raw/openalex/smoke_search.json; mailto=drmahirkurt@gmail.com; api_key=yes
+OpenAlex,API,2026-01-31T15:56:28+00:00,id:https://openalex.org/W2105610837,,,1,json,single,https://openalex.org/W2105610837,saved=data/raw/openalex/smoke_work.json; mailto=drmahirkurt@gmail.com
+EMA EPAR,API (JSON),2026-01-31T15:58:43+00:00,adapalene,,,0,json,,https://www.ema.europa.eu/sites/default/files/Medicines_output_medicines.json,error: 404 Client Error: Not Found for url: https://www.ema.europa.eu/sites/default/files/Medicines_output_medicines.json
+OpenAlex,API,2026-01-31T15:58:45+00:00,adapalene benzoyl peroxide,,,1032,json,cursor=*;per-page=5,https://api.openalex.org/works,saved=data/raw/openalex/demo_search.json; mailto=drmahirkurt@gmail.com; api_key=yes
+EMA EPAR,Web (Excel),2026-01-31T15:58:57+00:00,download-excel,,,1,xlsx,full,https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx,saved=data/raw/ema/medicines_report.xlsx
+EMA EPAR,API (JSON),2026-01-31T15:59:29+00:00,adapalene,,,0,json,,https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json,"error: ('Received response with content-encoding: br, but failed to decode it.', error(""brotli: decoder process called with data when 'can_accept_more_data()' is False""))"

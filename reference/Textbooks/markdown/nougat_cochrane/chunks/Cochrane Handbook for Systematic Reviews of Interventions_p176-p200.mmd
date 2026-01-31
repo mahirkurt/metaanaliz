@@ -1,0 +1,385 @@
+participants have particular symptoms at the start of the study the event of interest is usually recovery or cure. If participants are well or, alternatively, at risk of some adverse outcome at the beginning of the study, then the event is the onset of disease or occurrence of the adverse outcome.
+
+It is possible to switch events and non-events and consider instead the proportion of patients not recovering or not experiencing the event. For meta-analyses using risk differences or odds ratios the impact of this switch is of no great consequence: the switch simply changes the sign of a risk difference, indicating an identical effect size in the opposite direction, whilst for odds ratios the new odds ratio is the reciprocal (1/_x_) of the original odds ratio.
+
+In contrast, switching the outcome can make a substantial difference for risk ratios, affecting the effect estimate, its statistical significance, and the consistency of intervention effects across studies. This is because the precision of a risk ratio estimate differs markedly between those situations where risks are low and those where risks are high. In a meta-analysis, the effect of this reversal cannot be predicted easily. The identification, before data analysis, of which risk ratio is more likely to be the most relevant summary statistic is therefore important. It is often convenient to choose to focus on the event that represents a _change_ in state. For example, in treatment studies where everyone starts in an adverse state and the intention is to 'cure' this, it may be more natural to focus on 'cure' as the event. Alternatively, in prevention studies where everyone starts in a 'healthy' state and the intention is to prevent an adverse event, it may be more natural to focus on 'adverse event' as the event. A general rule of thumb is to focus on the _less common state_ as the event of interest. This reduces the problems associated with extrapolation (see Section 6.4.1.2) and may lead to less heterogeneity across studies. Where interventions aim to reduce the incidence of an adverse event, there is empirical evidence that risk ratios of the adverse event are more consistent than risk ratios of the non-event (Deeks 2002).
+
+#### 6.4.2 Data extraction for dichotomous outcomes
+
+To calculate summary statistics and include the result in a meta-analysis, the only data required for a dichotomous outcome are the numbers of participants in each of the intervention groups who did and did not experience the outcome of interest (the numbers needed to fill in a standard 2x2 table, as in Box 6.4.a). In RevMan, these can be entered as the numbers with the outcome and the total sample sizes for the two groups. Although in theory this is equivalent to collecting the total numbers and the numbers experiencing the outcome, it is not always clear whether the reported total numbers are the whole sample size or only those for whom the outcome was measured or observed. Collecting the numbers of actual observations is preferable, as it avoids assumptions about any participants for whom the outcome was not measured. Occasionally the numbers of participants who experienced the event must be derived from percentages (although it is not always clear which denominator to use, because rounded percentages may be compatible with more than one numerator).
+
+Sometimes the numbers of participants and numbers of events are not available, but an effect estimate such as an odds ratio or risk ratio may be reported. Such data may be included in meta-analyses (using the generic inverse variance method) only when they are accompanied by measures of uncertainty such as a SE, 95% confidence interval or an exact P value (see Section 6.3).
+
+### 6.5 Continuous outcome data
+
+#### 6.5.1 Effect measures for continuous outcomes
+
+The term 'continuous' in statistics conventionally refers to a variable that can take any value in a specified range. When dealing with numerical data, this means that a number may be measured and reported to an arbitrary number of decimal places. Examples of truly continuous data are weight, area and volume. In practice, we can use the same statistical methods for other types of data, most commonly measurement scales and counts of large numbers of events (see Section 6.6.1).
+
+A common feature of continuous data is that a measurement used to assess the outcome of each participant is also measured at baseline, that is, before interventions are administered. This gives rise to the possibility of computing effects based on **change from baseline** (also called a **change score**). When effect measures are based on change from baseline, a single measurement is created for each participant, obtained either by subtracting the post-intervention measurement from the baseline measurement or by subtracting the baseline measurement from the post-intervention measurement. Analyses then proceed as for any other type of continuous outcome variable.
+
+Two summary statistics are commonly used for meta-analysis of continuous data: the mean difference and the standardized mean difference. These can be calculated whether the data from each individual are post-intervention measurements or change-from-baseline measures. It is also possible to measure effects by taking ratios of means, or to use other alternatives.
+
+Sometimes review authors may consider dichotomizing continuous outcome measures so that the result of the trial can be expressed as an odds ratio, risk ratio or risk difference. This might be done either to improve interpretation of the results (see Chapter 15, Section 15.5), or because the majority of the studies present results after dichotomizing a continuous measure. Results reported as means and SDs can, under some assumptions, be converted to risks (Anzures-Cabrera et al 2011). Typically a normal distribution is assumed for the outcome variable within each intervention group. Methods for meta-analysis of continuous outcome data are covered in Chapter 10 (Section 10.5).
+
+##### 6.5.1.1 The mean difference (or difference in means)
+
+The **mean difference** (MD, or more correctly, 'difference in means') is a standard statistic that measures the absolute difference between the mean value in two groups of a randomized trial. It estimates the amount by which the experimental intervention changes the outcome on average compared with the comparator intervention. It can be used as a summary statistic in meta-analysis when outcome measurements in all studies are made on the same scale.
+
+Aside: analyses based on this effect measure were historically termed 'weighted mean difference' (WMD) analyses in the _Cochrane Database of Systematic Reviews_. This name is potentially confusing: although the meta-analysis computes a weighted average of these differences in means, no weighting is involved in calculation of a statistical summary of a single study. Furthermore, all meta-analyses involve a weighted combination of estimates, yet we do not use the word 'weighted' when referring to other methods.
+
+##### 6.5.1.2 The standardized mean difference
+
+The **standardized mean difference** (SMD) is used as a summary statistic in meta-analysis when the studies all assess the same outcome, but measure it in a variety of ways (for example, all studies measure depression but they use different psychometric scales). In this circumstance it is necessary to standardize the results of the studies to a uniform scale before they can be combined. The SMD expresses the size of the intervention effect in each study relative to the between-participant variability in outcome measurements observed in that study. (Again in reality the intervention effect is a difference in means and not a mean of differences.)
+
+\[\text{SMD}=\frac{\text{difference in mean outcome between groups}}{\text{standard deviation of outcome among participants}}.\]
+
+Thus, studies for which the difference in means is the same proportion of the standard deviation (SD) will have the same SMD, regardless of the actual scales used to make the measurements.
+
+However, the method assumes that the differences in SDs among studies reflect differences in measurement scales and not real differences in variability among study populations. If in two trials the true effect (as measured by the difference in means) is identical, but the SDs are different, then the SDs will be different. This may be problematic in some circumstances where real differences in variability between the participants in different studies are expected. For example, where early explanatory trials are combined with later pragmatic trials in the same review, pragmatic trials may include a wider range of participants and may consequently have higher SDs. The overall intervention effect can also be difficult to interpret as it is reported in units of SD rather than in units of any of the measurement scales used in the review, but several options are available to aid interpretation (see Chapter 15, Section 15.6).
+
+The term 'effect size' is frequently used in the social sciences, particularly in the context of meta-analysis. Effect sizes typically, though not always, refer to versions of the SMD. It is recommended that the term 'SMD' be used in Cochrane Reviews in preference to 'effect size' to avoid confusion with the more general plain language use of the latter term as a synonym for 'intervention effect' or 'effect estimate'.
+
+It should be noted that the SMD method does not correct for differences in the direction of the scale. If some scales increase with disease severity (for example, a higher score indicates more severe depression) whilst others decrease (a higher score indicates less severe depression), it is essential to multiply the mean values from one set of studies by -1 (or alternatively to subtract the mean from the maximum possible value for the scale) to ensure that all the scales point in the same direction, before standardization. Any such adjustment should be described in the statistical methods section of the review. The SD does not need to be modified.
+
+Different variations on the SMD are available depending on exactly what choice of SD is chosen for the denominator. The particular definition of SMD used in Cochrane Reviews is the effect size known in social science as Hedges' (adjusted) \(g\). This uses a pooled SD in the denominator, which is an estimate of the SD based on outcome data from both intervention groups, assuming that the SDs in the two groups are similar. In contrast, Glass' delta (\(\Delta\)) uses only the SD from the comparator group, on the basis that if the experimental intervention affects between-person variation, then such an impact of the intervention should not influence the effect estimate.
+
+To overcome problems associated with estimating SDs within small studies, and with real differences across studies in between-person variability, it may sometimes be desirable to standardize using an external estimate of SD. External estimates might be derived, for example, from a cross-sectional analysis of many individuals assessed using the same continuous outcome measure (the sample of individuals might be derived from a large cohort study). Typically the external estimate would be assumed to be known without error, which is likely to be reasonable if it is based on a large number of individuals. Under this assumption, the statistical methods used for MDs would be used, with both the MD and its SE divided by the externally derived SD.
+
+##### 6.5.1.3 The ratio of means
+
+The **ratio of means** (RoM) is a less commonly used statistic that measures the relative difference between the mean value in two groups of a randomized trial (Friedrich et al 2008). It estimates the amount by which the average value of the outcome is multiplied for participants on the experimental intervention compared with the comparator intervention. For example, a RoM of 2 for an intervention implies that the mean score in the participants receiving the experimental intervention is on average twice as high as that of the group without intervention. It can be used as a summary statistic in meta-analysis when outcome measurements can only be positive. Thus it is suitable for single (post-intervention) assessments but not for change-from-baseline measures (which can be negative).
+
+An advantage of the RoM is that it can be used in meta-analysis to combine results from studies that used different measurement scales. However, it is important that these different scales have comparable lower limits. For example, a RoM might meaningfully be used to combine results from a study using a scale ranging from 0 to 10 with results from a study ranging from 1 to 50. However, it is unlikely to be reasonable to combine RoM results from a study using a scale ranging from 0 to 10 with RoM results from a study using a scale ranging from 20 to 30: it is not possible to obtain RoM values outside of the range 0.67 to 1.5 in the latter study, whereas such values are readily obtained in the former study. RoM is not a suitable effect measure for the latter study.
+
+The RoM might be a particularly suitable choice of effect measure when the outcome is a physical measurement that can only take positive values, but when different studies use different measurement approaches that cannot readily be converted from one to another. For example, it was used in a meta-analysis where studies assessed urine output using some measures that did, and some measures that did not, adjust for body weight (Friedrich et al 2005).
+
+#### 6.5.1.4 Other effect measures for continuous outcome data
+
+Other effect measures for continuous outcome data include the following.
+
+* _Standardized difference in terms of the minimal important differences (MID) on each scale_. This expresses the MD as a proportion of the amount of change on a scale that would be considered clinically meaningful (Johnston et al 2010).
+* _Prevented fraction_. This expresses the MD in change scores in relation to the comparator group mean change. Thus it describes how much change in the comparator group might have been prevented by the experimental intervention. It has commonly been used in dentistry (Dubey et al 1965).
+* _Difference in percentage change from baseline_. This is a version of the MD in which each intervention group is summarized by the mean change divided by the mean baseline level, thus expressing it as a percentage. The measure has often been used, for example, for outcomes such as cholesterol level, blood pressure and glaucoma. Care is needed to ensure that the SE correctly accounts for correlation between baseline and post-intervention values (Vickers 2001).
+* _Direct mapping from one scale to another_. If conversion factors are available that map one scale to another (e.g. pounds to kilograms) then these should be used. Methods are also available that allow these conversion factors to be estimated (Ades et al 2015).
+
+#### 6.5.2 Data extraction for continuous outcomes
+
+To perform a meta-analysis of continuous data using MDs, SMDs or ratios of means, review authors should seek:
+
+* the mean value of the outcome measurements in each intervention group;
+* the standard deviation of the outcome measurements in each intervention group; and
+* the number of participants for whom the outcome was measured in each intervention group.
+
+Due to poor and variable reporting it may be difficult or impossible to obtain these numbers from the data summaries presented. Studies vary in the statistics they use to summarize the average (sometimes using medians rather than means) and variation (sometimes using SEs, confidence intervals, interquartile ranges and ranges rather than SDs). They also vary in the scale chosen to analyse the data (e.g. post-intervention measurements versus change from baseline; raw scale versus logarithmic scale).
+
+A particularly misleading error is to misinterpret a SE as a SD. Unfortunately, it is not always clear which is being reported and some intelligent reasoning, and comparison with other studies, may be required. SDs and SEs are occasionally confused in the reports of studies, and the terminology is used inconsistently.
+
+When needed, missing information and clarification about the statistics presented should always be sought from the authors. However, for several measures of variation there is an approximate or direct algebraic relationship with the SD, so it may be possible to obtain the required statistic even when it is not published in a paper, as explained in Sections 6.5.2.1 to 6.5.2.6. More details and examples are available elsewhere (Deeks 1997a, Deeks 1997b). Section 6.5.2.7 discusses options whenever SDs remain missing after attempts to obtain them.
+
+Sometimes the numbers of participants, means and SDs are not available, but an effect estimate such as a MD or SMD has been reported. Such data may be included in meta-analyses using the generic inverse variance method only when they are accompanied by measures of uncertainty such as a SE, 95% confidence interval or an exact P value. A suitable SE from a confidence interval for a MD should be obtained using the early steps of the process described in Section 6.5.2.3. For SMDs, see Section 6.3.
+
+##### 6.5.2.1 Extracting post-intervention versus change from baseline data
+
+Commonly, studies in a review will have reported a mixture of changes from baseline and post-intervention values (i.e. values at various follow-up time points, including 'final value'). Some studies will report both; others will report only change scores or only post-intervention values. As explained in Chapter 10 (Section 10.5.2), both post-intervention values and change scores can sometimes be combined in the same analysis so this is not necessarily a problem. Authors may wish to extract data on both change from baseline and post-intervention outcomes if the required means and SDs are available (see Section 6.5.2.7 for cases where the applicable SDs are not available). The choice of measure reported in the studies may be associated with the direction and magnitude of results. Review authors should seek evidence of whether such selective reporting may be the case in one or more studies (see Chapter 8, Section 8.7).
+
+A final problem with extracting information on change from baseline measures is that often baseline and post-intervention measurements may have been reported for different numbers of participants due to missed visits and study withdrawals. It may be difficult to identify the subset of participants who report both baseline and post-intervention measurements for whom change scores can be computed.
+
+##### 6.5.2.2 Obtaining standard deviations from standard errors and confidence intervals for group means
+
+A standard deviation can be obtained from the SE of a mean by multiplying by the square root of the sample size:
+
+\[\text{SD}=\text{SE}\times\sqrt{N}.\]
+
+When making this transformation, the SE must be calculated from within a single intervention group, and must not be the SE of the mean difference between two intervention groups.
+
+The confidence interval for a mean can also be used to calculate the SD. Again, the following applies to the confidence interval for a mean value calculated within an intervention group and not for estimates of differences between interventions (for these, see Section 6.5.2.3). Most reported confidence intervals are 95% confidence intervals. If the sample size is large (say larger than 100 in each group), the 95% confidence interval is 3.92 SE wide (3.92 = 2 x 1.96). The SD for each group is obtained by dividing the width of the confidence interval by 3.92, and then multiplying by the square root of the sample size in that group:
+
+\[\text{SD}=\sqrt{N}\times(\text{upper limit}-\text{lower limit})/3.92.\]
+
+For 90% confidence intervals, 3.92 should be replaced by 3.29, and for 99% confidence intervals it should be replaced by 5.15.
+
+If the sample size is small (say fewer than 60 participants in each group) then confidence intervals should have been calculated using a value from a t distribution. The numbers 3.92, 3.29 and 5.15 are replaced with slightly larger numbers specific to the t distribution, which can be obtained from tables of the t distribution with degrees of freedom equal to the group sample size minus 1. Relevant details of the t distribution are available as appendices of many statistical textbooks or from standard computer spreadsheet packages. For example the t statistic for a 95% confidence interval from a sample size of 25 can be obtained by typing =**tiny(1-0.95,25-1)** in a cell in a Microsoft Excel spreadsheet (the result is 2.0639). The divisor, 3.92, in the formula above would be replaced by \(2\times 2.0639=4.128\).
+
+For moderate sample sizes (say between 60 and 100 in each group), either a t distribution or a standard normal distribution may have been used. Review authors should look for evidence of which one, and use a t distribution when in doubt.
+
+As an example, consider data presented as follows:
+
+\begin{tabular}{l l l l} \hline \hline Group & Sample size & Mean & 95\% CI \\ \hline Experimental intervention & 25 & 32.1 & (30.0, 34.2) \\ Comparator intervention & 22 & 28.3 & (26.5, 30.1) \\ \hline \hline \end{tabular}
+
+The confidence intervals should have been based on t distributions with 24 and 21 degrees of freedom, respectively. The divisor for the experimental intervention group is 4.128, from above. The SD for this group is \(\surd 25\times(34.2\ -\ 30.0)/4.128=5.09\). Calculations for the comparator group are performed in a similar way.
+
+It is important to check that the confidence interval is symmetrical about the mean (the distance between the lower limit and the mean is the same as the distance between the mean and the upper limit). If this is not the case, the confidence interval may have been calculated on transformed values (see Section 6.5.2.4).
+
+6.5.2.3 Obtaining standard deviations from standard errors, confidence intervals, t statistics and P values for differences in means Standard deviations can be obtained from a SE, confidence interval, t statistic or P value that relates to a difference between means in two groups (i.e. the MD). The MD is required in the calculations from the t statistic or the P value. An assumption that the SDs of outcome measurements are the same in both groups is required in all cases. The same SD is then used for both intervention groups. We describe first how a t statistic can be obtained from a P value, then how a SE can be obtained from a t statistic or a confidence interval, and finally how a SD is obtained from the SE. Review authors may select the appropriate steps in this process according to what results are available to them. Related methods can be used to derive SDs from certain F statistics, since taking the square root of an F statistic may produce the same t statistic. Care often is required to ensure that an appropriate F statistic is used. Advice from a knowledgeable statistician is recommended.
+
+1. **From P value to t statistic** Where actual P values obtained from t-tests are quoted, the corresponding t statistic may be obtained from a table of the t distribution. The degrees of freedom are given by \(N_{E}+N_{C}-2\), where \(N_{E}\) and \(N_{C}\) are the sample sizes in the experimental and comparator groups. We will illustrate with an example. Consider a trial of an experimental intervention (\(N_{E}=25\)) versus a comparator intervention (\(N_{C}=22\)), where the MD = 3.8. The P value for the comparison was P = 0.008, obtained using a two-sample t-test. The t statistic that corresponds with a P value of 0.008 and \(25+22-2=45\) degrees of freedom is t = 2.78. This can be obtained from a table of the t distribution with 45 degrees of freedom or a computer (for example, by entering =**tiny(0.008, 45)** into any cell in a Microsoft Excel spreadsheet). Difficulties are encountered when levels of significance are reported (such as P < 0.05 or even P = NS ('not significant', which usually implies P > 0.05) rather than exact P values. A conservative approach would be to take the P value at the upper limit (e.g. for P < 0.05 take P = 0.05, for P < 0.01 take P = 0.01 and for P < 0.001 take P = 0.001). However, this is not a solution for results that are reported as P = NS, or P > 0.05 (see Section 6.5.2.7).
+2. **From t statistic to standard error** The t statistic is the ratio of the MD to the SE of the MD. The SE of the MD can therefore be obtained by dividing it by the t statistic: \[SE=\left|\frac{MD}{t}\right|,\] where \(|X|\) denotes 'the absolute value of \(X\)'. In the example, where MD = 3.8 and t = 2.78, the SE of the MD is obtained by dividing 3.8 by 2.78, which gives 1.37.
+3. **From confidence interval to standard error** If a 95% confidence interval is available for the MD, then the same SE can be calculated as: \[SE=\big{(}upper\,limit-lower\,limit\big{)}/3.92,\] as long as the trial is large. For 90% confidence intervals divide by 3.29 rather than 3.92; for 99% confidence intervals divide by 5.15. If the sample size is small (say fewer than 60 participants in each group) then confidence intervals should have been calculated using a t distribution. The numbers 3.92, 3.29 and 5.15 are replaced with larger numbers specific to both the t distribution and the sample size, and can be obtained from tables of the t distribution with degrees of freedom equal to \(N_{E}+N_{C}-2\), where \(N_{E}\) and \(N_{C}\) are the sample sizes in the two groups. Relevant details of the t distribution are available as appendices of many statistical textbooks or from standard computer spreadsheet packages. For example, the t statistic for a 95% confidence interval from a comparison of a sample size of 25 with a sample size of 22 can be obtained by typing =**tiny(1-0.95, 25+22-2)** in a cell in a Microsoft Excel spreadsheet.
+
+4. **From standard error to standard deviation**
+
+The within-group SD can be obtained from the SE of the MD using the following formula:
+
+\[\text{SD}=\frac{\text{SE}}{\sqrt{\frac{1}{N_{E}}+\frac{1}{N_{C}}}}.\]
+
+In the example,
+
+\[\text{SD}=\frac{1.37}{\sqrt{\frac{1}{25}+\frac{1}{22}}}=4.69.\]
+
+Note that this SD is the average of the SDs of the experimental and comparator arms, and should be entered into RevMan twice (once for each intervention group).
+
+#### 6.5.2.4 Transformations and skewed data
+
+Studies may present summary statistics calculated after a transformation has been applied to the raw data. For example, means and SDs of logarithmic values may be available (or, equivalently, a geometric mean and its confidence interval). Such results should be collected, as they may be included in meta-analyses, or - with certain assumptions - may be transformed back to the raw scale (Higgins et al 2008).
+
+For example, a trial reported meningococcal antibody responses 12 months after vaccination with meningitis C vaccine and a control vaccine (MacLennan et al 2000), as geometric mean titres of 24 and 4.2 with 95% confidence intervals of 17 to 34 and 3.9 to 4.6, respectively. These summaries were obtained by finding the means and confidence intervals of the natural logs of the antibody responses (for vaccine 3.18 (95% CI 2.83 to 3.53), and control 1.44 (1.36 to 1.53)), and taking their exponentials (anti-logs). A meta-analysis may be performed on the scale of these natural log antibody responses, rather than the geometric means. SDs of the log-transformed data may be derived from the latter pair of confidence intervals using methods described in Section 6.5.2.1. For further discussion of meta-analysis with skewed data, see Chapter 10 (Section 10.5.3).
+
+##### 6.5.2.5 Interquartile ranges
+
+Interquartile ranges describe where the central 50% of participants' outcomes lie. When sample sizes are large and the distribution of the outcome is similar to the normal distribution, the width of the interquartile range will be approximately 1.35 SDs. In other situations, and especially when the outcome's distribution is skewed, it is not possible to estimate a SD from an interquartile range. Note that the use of interquartile ranges rather than SDs often can indicate that the outcome's distribution is skewed. Wan and colleagues provided a sample size-dependent extension to the formula for approximating the SD using the interquartile range (Wan et al 2014).
+
+##### 6.5.2.6 Ranges
+
+Ranges are very unstable and, unlike other measures of variation, increase when the sample size increases. They describe the extremes of observed outcomes rather than the average variation. One common approach has been to make use of the fact that, with normally distributed data, 95% of values will lie within 2 x SD either side of the mean. The SD may therefore be estimated to be approximately one-quarter of the typical range of data values. This method is not robust and we recommend that it not be used. Walter and Yao based an imputation method on the minimum and maximum observed values. Their enhancement of the "range' method provided a lookup table, according to sample size, of conversion factors from range to SD (Walter and Yao 2007). Alternative methods have been proposed to estimate SDs from ranges and quantiles (Hozo et al 2005, Wan et al 2014, Bland 2015), although to our knowledge these have not been evaluated using empirical data. As a general rule, we recommend that ranges should not be used to estimate SDs.
+
+##### 6.5.2.7 No information on variability
+
+Missing SDs are a common feature of meta-analyses of continuous outcome data. When none of the above methods allow calculation of the SDs from the trial report (and the information is not available from the trialists) then a review author may be forced to impute ('fill in') the missing data if they are not to exclude the study from the meta-analysis.
+
+The simplest imputation is to borrow the SD from one or more other studies. Furukawa and colleagues found that imputing SDs either from other studies in the same meta-analysis, or from studies in another meta-analysis, yielded approximately correct results in two case studies (Furukawa et al 2006). If several candidate SDs are available, review authors should decide whether to use their average, the highest, a'reasonably high' value, or some other strategy. For meta-analyses of MDs, choosing a higher SD down-weights a study and yields a wider confidence interval. However, for SD meta-analyses, choosing a higher SD will bias the result towards a lack of effect. More complicated alternatives are available for making use of multiple candidate SDs. For example, Marinho and colleagues implemented a linear regression of log(SD) on log(mean), because of a strong linear relationship between the two (Marinho et al 2003).
+
+All imputation techniques involve making assumptions about unknown statistics, and it is best to avoid using them wherever possible. If the majority of studies in a meta-analysis have missing SDs, these values should not be imputed. A narrative approach might then be needed for the synthesis (see Chapter 12). However, imputation may be reasonable for a small proportion of studies comprising a small proportion of the data if it enables them to be combined with other studies for which full data are available. Sensitivity analyses should be used to assess the impact of changing the assumptions made.
+
+##### 6.5.2.8 Imputing standard deviations for changes from baseline
+
+A special case of missing SDs is for changes from baseline measurements. Often, only the following information is available:Note that the mean change in each group can be obtained by subtracting the post-intervention mean from the baseline mean even if it has not been presented explicitly. However, the information in this table does _not_ allow us to calculate the SD of the changes. We cannot know whether the changes were very consistent or very variable across individuals. Some other information in a paper may help us determine the SD of the changes.
+
+When there is not enough information available in a paper to calculate the SDs for the changes, they can be imputed, for example, by using change-from-baseline SDs for the same outcome measure from other studies in the review. However, the appropriateness of using a SD from another study relies on whether the studies used the same measurement scale, had the same degree of measurement error, had the same time interval between baseline and post-intervention measurement, and in a similar population.
+
+When statistical analyses comparing the changes themselves are presented (e.g. confidence intervals, SEs, t statistics, P values, F statistics) then the techniques described in Section 6.5.2.3 may be used. Also note that an alternative to these methods is simply to use a comparison of post-intervention measurements, which in a randomized trial in theory estimates the same quantity as the comparison of changes from baseline.
+
+The following alternative technique may be used for calculating or imputing missing SDs for changes from baseline (Follmann et al 1992, Abrams et al 2005). A typically unreported number known as the correlation coefficient describes how similar the baseline and post-intervention measurements were across participants. Here we describe (1) how to calculate the correlation coefficient from a study that is reported in considerable detail and (2) how to impute a change-from-baseline SD in another study, making use of a calculated or imputed correlation coefficient. Note that the methods in (2) are applicable both to correlation coefficients obtained using (1) and to correlation coefficients obtained in other ways (for example, by reasoned argument). Methods in (2) should be used sparingly because one can never be sure that an imputed correlation is appropriate. This is because correlations between baseline and post-intervention values usually will, for example, decrease with increasing time between baseline and post-intervention measurements, as well as depending on the outcomes, characteristics of the participants and intervention effects.
+
+#### Calculating a correlation coefficient from a study reported in considerable detail
+
+Suppose a study presents means and SDs for change as well as for baseline and post-intervention ("Final") measurements, for example:
+
+\begin{tabular}{l l l l} \hline \hline  & Baseline & Final & Change \\ \hline Experimental intervention (sample size 129) & mean = 15.2 & mean = 16.2 & mean = 1.0 \\  & SD = 6.4 & SD = 7.1 & SD = 4.5 \\ Comparator intervention (sample size 135) & mean = 15.7 & mean = 17.2 & mean = 1.5 \\  & SD = 7.0 & SD = 6.9 & SD = 4.2 \\ \hline \hline \end{tabular} An analysis of change from baseline is available from this study, using only the data in the final column. We can use other data in this study to calculate two correlation coefficients, one for each intervention group. Let us use the following notation:The correlation coefficient in the experimental group, \(\text{Corr}_{E}\), can be calculated as:
+
+\[\text{Corr}_{E}=\frac{\text{SD}_{E,\text{baseline}}^{2}+\text{SD}_{E,\text{ final}}^{2}-\text{SD}_{E,\text{change}}^{2}}{2\times\text{SD}_{E,\text{baseline}} \times\text{SD}_{E,\text{final}}}\]
+
+and similarly for the comparator intervention, to obtain \(\text{Corr}_{C}\). In the example, these turn out to be
+
+\[\text{Corr}_{E}=\frac{6.4^{2}+7.1^{2}-4.5^{2}}{2\times 6.4\times 7.1}=0.78,\]
+
+\[\text{Corr}_{C}=\frac{7.0^{2}+6.9^{2}-4.2^{2}}{2\times 7.0\times 6.9}=0.82.\]
+
+When either the baseline or post-intervention SD is unavailable, then it may be substituted by the other, providing it is reasonable to assume that the intervention does not alter the variability of the outcome measure. Assuming the correlation coefficients from the two intervention groups are reasonably similar to each other, a simple average can be taken as a reasonable measure of the similarity of baseline and final measurements across all individuals in the study (in the example, the average of 0.78 and 0.82 is 0.80). It is recommended that correlation coefficients be computed for many (if not all) studies in the meta-analysis and examined for consistency. If the correlation coefficients differ, then either the sample sizes are too small for reliable estimation, the intervention is affecting the variability in outcome measures, or the intervention effect depends on baseline level, and the use of average is best avoided. In addition, if a value less than 0.5 is obtained (correlation coefficients lie between -1 and 1), then there is little benefit in using change from baseline and an analysis of post-intervention measurements will be more precise.
+2. **Imputing a change-from-baseline standard deviation using a correlation coefficient** Now consider a study for which the SD of changes from baseline is missing. When baseline and post-intervention SDs are known, we can impute the missing SD using an imputed value, \(\text{Corr}\), for the correlation coefficient. The value \(\text{Corr}\) may be calculated from another study in the meta-analysis (using the method in (1)), imputed from elsewhere, or hypothesized based on reasoned argument. In all of these situations, a sensitivity analysis should be undertaken, trying different values of \(\text{Corr}\), to determine whether the overall result of the analysis is robust to the use of imputed correlation coefficients. To impute a SD of the change from baseline for the experimental intervention, use and similarly for the comparator intervention. Again, if either of the SDs (at baseline and post-intervention) is unavailable, then one may be substituted by the other as long as it is reasonable to assume that the intervention does not alter the variability of the outcome measure.
+
+As an example, consider the following data:
+
+\begin{tabular}{l l l l} \hline \hline  & Baseline & Final & Change \\ \hline Experimental intervention & mean = 12.4 & mean = 15.2 & mean = 2.8 \\ (sample size 35) & SD = 4.2 & SD = 3.8 & \\ Comparator intervention & mean = 10.7 & mean = 13.8 & mean = 3.1 \\ (sample size 38) & SD = 4.0 & SD = 4.4 & \\ \hline \hline \end{tabular}
+
+Using the correlation coefficient calculated in step 1 above of 0.80, we can impute the change-from-baseline SD in the comparator group as:
+
+\[\text{SD}_{C,\text{change}}=\sqrt{4.0^{2}+4.4^{2}-(2\times 0.80\times 4.0\times 4.4)}=2.68.\]
+
+##### Missing means
+
+Missing mean values sometimes occur for continuous outcome data. If a median is available instead, then this will be very similar to the mean when the distribution of the data is symmetrical, and so occasionally can be used directly in meta-analyses. However, means and medians can be very different from each other when the data are skewed, and medians often are reported because the data are skewed (see Chapter 10, Section 10.5.3). Nevertheless, Hozo and colleagues conclude that the median may often be a reasonable substitute for a mean (Hozo et al 2005).
+
+Wan and colleagues proposed a formula for imputing a missing mean value based on the lower quartile, median and upper quartile summary statistics (Wan et al 2014). Bland derived an approximation for a missing mean using the sample size, the minimum and maximum values, the lower and upper quartile values, and the median (Bland 2015). Both of these approaches assume normally distributed outcomes but have been observed to perform well when analysing skewed outcomes; the same simulation study indicated that the Wan method had better properties (Weir et al 2018). Caveats about imputing values summarized in Section 6.5.2.7 should be observed.
+
+##### Combining groups
+
+Sometimes it is desirable to combine two reported subgroups into a single group. For example, a study may report results separately for men and women in each of the intervention groups. The formulae in Table 6.5.a can be used to combine numbers into a single sample size, mean and SD for each intervention group (i.e. combining across men and women in each intervention group in this example). Note that the rather complex-looking formula for the SD produces the SD of outcome measurements _as if the combined group had never been divided into two_. This SD is different from the usual pooled SD that is used to compute a confidence interval for a MD or as the denominator in computing the SMD. This usual pooled SD provides a within-subgroup SD rather than an SD for the combined group, so provides an underestimate of the desired SD.
+
+These formulae are also appropriate for use in studies that compared three or more interventions, two of which represent the same intervention category as defined for the purposes of the review. In that case, it may be appropriate to combine these two groups and consider them as a single intervention (see Chapter 23, Section 23.3). For example, 'Group 1' and 'Group 2' may refer to two slightly different variants of an intervention to which participants were randomized, such as different doses of the same drug.
+
+When there are more than two groups to combine, the simplest strategy is to apply the above formula sequentially (i.e. combine Group 1 and Group 2 to create Group '1+2', then combine Group '1+2' and Group 3 to create Group '1+2+3', and so on).
+
+### 6.6 Ordinal outcome data and measurement scales
+
+#### 6.6.1 Effect measures for ordinal outcomes and measurement scales
+
+**Ordinal outcome data** arise when each participant is classified in a category and when the categories have a natural order. For example, a 'trichotomous' outcome such as the classification of disease severity into'mild','moderate' or'severe', is of ordinal type. As the number of categories increases, ordinal outcomes acquire properties similar to continuous outcomes, and probably will have been analysed as such in a randomized trial.
+
+**Measurement scales** are one particular type of ordinal outcome frequently used to measure conditions that are difficult to quantify, such as behaviour, depression and cognitive abilities. Measurement scales typically involve a series of questions or tasks, each of which is scored and the scores then summed to yield a total'score'. If the items are not considered of equal importance a weighted sum may be used.
+
+Methods are available for analysing ordinal outcome data that describe effects in terms of **proportional odds ratios**(Agresti 1996). Suppose that there are three categories, which are ordered in terms of desirability such that 1 is the best and 3 the worst. The data could be dichotomized in two ways: either category 1 constitutes a success and categories 2 and 3 a failure; or categories 1 and 2 constitute a success and category 3 a failure. A proportional odds model assumes that there is an equal odds ratio for both dichotomies of the data. Therefore, the odds ratio calculated from the proportional odds model can be interpreted as the odds of success on the experimental intervention relative to comparator, irrespective of how the ordered categories might be divided into success or failure. Methods (specifically polychotomous logistic regression models) are available for calculating study estimates of the log odds ratio and its SE.
+
+Methods specific to ordinal data become unwieldy (and unnecessary) when the number of categories is large. In practice, longer ordinal scales acquire properties similar to continuous outcomes, and are often analysed as such, whilst shorter ordinal scales are often made into dichotomous data by combining adjacent categories together until only two remain. The latter is especially appropriate if an established, defensible cut-point is available. However, inappropriate choice of a cut-point can induce bias, particularly if it is chosen to maximize the difference between two intervention arms in a randomized trial.
+
+Where ordinal scales are summarized using methods for dichotomous data, one of the two sets of grouped categories is defined as the event and intervention effects are described using risk ratios, odds ratios or risk differences (see Section 6.4.1). When ordinal scales are summarized using methods for continuous data, the mean score is calculated in each group and intervention effect is expressed as a MD or SMD, or possibly a RoM (see Section 6.5.1). Difficulties will be encountered if studies have summarized their results using medians (see Section 6.5.2.5). Methods for meta-analysis of ordinal outcome data are covered in Chapter 10 (Section 10.7).
+
+#### 6.6.2 Data extraction for ordinal outcomes
+
+The data to be extracted for ordinal outcomes depend on whether the ordinal scale will be dichotomized for analysis (see Section 6.4), treated as a continuous outcome (see Section 6.5.2) or analysed directly as ordinal data. This decision, in turn, will be influenced by the way in which study authors analysed and reported their data. It may be impossible to pre-specify whether data extraction will involve calculation of numbers of participants above and below a defined threshold, or mean values and SDs. In practice, it is wise to extract data in all forms in which they are given as it will not be clear which is the most common form until all studies have been reviewed. In some circumstances more than one form of analysis may justifiably be included in a review.
+
+Where ordinal data are to be dichotomized and there are several options for selecting a cut-point (or the choice of cut-point is arbitrary) it is sensible to plan from the outset to investigate the impact of choice of cut-point in a sensitivity analysis (see Chapter 10, Section 10.14). To collect the data that would be used for each alternative dichotomization, it is necessary to record the numbers in each category of short ordinal scales to avoid having to extract data from a paper more than once. This approach of recording all categorizations is also sensible when studies used slightly different short ordinal scales and it is not clear whether there is a cut-point that is common across all the studies which can be used for dichotomization.
+
+It is also necessary to record the numbers in each category of the ordinal scale for each intervention group when the proportional odds ratio method will be used (see Chapter 10, Section 10.7).
+
+### Count and rate data
+
+#### 6.7.1 Effect measures for counts and rates
+
+Some types of event can happen to a person more than once, for example, a myocardial infarction, an adverse reaction or a hospitalization. It may be preferable, or necessary, to address the number of times these events occur rather than simply whether each person experienced an event or not (that is, rather than treating them as dichotomous data). We refer to this type of data as **count data**. For practical purposes, count data may be conveniently divided into counts of rare events and counts of common events.
+
+Counts of rare events are often referred to as 'Poisson data' in statistics. Analyses of rare events often focus on **rates**. Rates relate the counts to the amount of time during which they could have happened. For example, the result of one arm of a clinical trial could be that 18 myocardial infarctions (MIs) were experienced, across all participants in that arm, during a period of 314 person-years of follow-up (that is, the total number of years for which all the participants were collectively followed). The rate is 0.057 per person-year or 5.7 per 100 person-years. The summary statistic usually used in meta-analysis is the **rate ratio** (also abbreviated to RR), which compares the rate of events in the two groups by dividing one by the other.
+
+Suppose \(E_{E}\) events occurred during \(T_{E}\) person-years of follow-up in the experimental intervention group, and \(E_{C}\) events during \(T_{C}\) person-years in the comparator intervention group. The rate ratio is:
+
+\[\text{rate ratio}=\frac{E_{E}/T_{E}}{E_{C}/T_{C}}=\frac{E_{E}T_{C}}{E_{C}T_{E}}.\]
+
+As a ratio measure, this rate ratio should then be log transformed for analysis (see Section 6.3.2). An approximate SE of the log rate ratio is given by:
+
+\[\text{SE of ln rate ratio}=\sqrt{\frac{1}{E_{E}}+\frac{1}{E_{C}}}.\]
+
+A correction of 0.5 may be added to each count in the case of zero events. Note that the choice of time unit (i.e. patient-months, woman-years, etc) is irrelevant since it is cancelled out of the rate ratio and does not figure in the SE. However, the units should still be displayed when presenting the study results.
+
+It is also possible to use a **rate difference** (or difference in rates) as a summary statistic, although this is much less common:
+
+\[\text{rate difference}=\frac{E_{E}}{T_{E}}-\frac{E_{C}}{T_{C}}.\]
+
+An approximate SE for the rate difference is:
+
+\[\text{SE of rate difference}=\sqrt{\frac{E_{E}}{T_{E}^{2}}+\frac{E_{C}}{T_{C} ^{2}}}.\]
+
+Counts of more common events, such as counts of decayed, missing or filled teeth, may often be treated in the same way as continuous outcome data. The intervention effectused will be the MD which will compare the difference in the mean number of events (possibly standardized to a unit time period) experienced by participants in the intervention group compared with participants in the comparator group.
+
+##### 6.7.2 Data extraction for counts and rates
+
+Data that are inherently counts may have been analysed in several ways. Both primary investigators and review authors will need to decide whether to make the outcome of interest dichotomous, continuous, time-to-event or a rate (see Section 6.8).
+
+Although it is preferable to decide how count data will be analysed in a review in advance, the choice often is determined by the format of the available data, and thus cannot be decided until the majority of studies have been reviewed. Review authors should plan to extract count data in the form in which they are reported.
+
+Sometimes detailed data on events and person-years at risk are not available, but results calculated from them are. For example, an estimate of a rate ratio or rate difference may be presented. Such data may be included in meta-analyses only when they are accompanied by measures of uncertainty such as a 95% confidence interval (see Section 6.3), from which a SE can be obtained and the generic inverse variance method used for meta-analysis.
+
+##### 6.7.2.1 Extracting counts as dichotomous data
+
+A common error is to attempt to treat count data as dichotomous data. Suppose that in the example just presented, the 18 MIs in 314 person-years arose from 157 patients observed on average for 2 years. One may be tempted to quote the results as 18/157, or even 18/314. This is inappropriate if multiple MIs from the same patient could have contributed to the total of 18 (say if the 18 arose through 12 patients having single MIs and 3 patients each having 2 MIs). The total number of events could theoretically exceed the number of patients, making the results nonsensical. For example, over the course of one year, 35 epileptic participants in a study could experience a total of 63 seizures.
+
+To consider the outcome as a dichotomous outcome, the author must determine the number of participants in each intervention group, and the number of participants in each intervention group who experienced _at least one event_ (or some other appropriate criterion which classified all participants into one of two possible groups). Any time element in the data is lost through this approach, though it may be possible to create a series of dichotomous outcomes, for example at least one stroke during the first year of follow-up, at least one stroke during the first two years of follow-up, and so on. It may be difficult to derive such data from published reports.
+
+##### 6.7.2.2 Extracting counts as continuous data
+
+To extract counts as continuous data (i.e. the mean number of events per patient), guidance in Section 6.5.2 should be followed, although particular attention should be paid to the likelihood that the data will be highly skewed.
+
+#### 6.7.2.3 Extracting counts as time-to-event data
+
+For rare events that can happen more than once, an author may be faced with studies that treat the data as time-to-first-event. To extract counts as time-to-event data, guidance in Section 6.8.2 should be followed.
+
+##### 6.7.2.4 Extracting counts as rate data
+
+When it is possible to extract the total number of events in each group, and the total amount of person-time at risk in each group, then count data can be analysed as rates (see Chapter 10, Section 10.8). Note that the total number of participants is not required for an analysis of rate data but should be recorded as part of the description of the study.
+
+### 6.8 Time-to-event data
+
+#### 6.8.1 Effect measures for time-to-event outcomes
+
+**Time-to-event data** arise when interest is focused on the time elapsing before an event is experienced. They are known generically as **survival data** in the medical statistics literature, since death is often the event of interest, particularly in cancer and heart disease. Time-to-event data consist of pairs of observations for each individual: first, a length of time during which no event was observed, and second, an indicator of whether the end of that time period corresponds to an event or just the end of observation. Participants who contribute some period of time that does not end in an event are said to be 'censored'. Their event-free time contributes information and they are included in the analysis. Time-to-event data may be based on events other than death, such as recurrence of a disease event (for example, time to the end of a period free of epileptic fits) or discharge from hospital.
+
+Time-to-event data can sometimes be analysed as dichotomous data. This requires the status of all patients in a study to be known at a fixed time point. For example, if all patients have been followed for at least 12 months, and the proportion who have incurred the event before 12 months is known for both groups, then a 2x2 table can be constructed (see Box 6.4.a) and intervention effects expressed as risk ratios, odds ratios or risk differences.
+
+It is not appropriate to analyse time-to-event data using methods for continuous outcomes (e.g. using mean times-to-event), as the relevant times are only known for the subset of participants who have had the event. Censored participants must be excluded, which almost certainly will introduce bias.
+
+The most appropriate way of summarizing time-to-event data is to use methods of survival analysis and express the intervention effect as a **hazard ratio**. Hazard is similar in notion to risk, but is subtly different in that it measures instantaneous risk and may change continuously (for example, one's hazard of death changes as one crosses a busy road). A hazard ratio describes how many times more (or less) likely a participant is to suffer the event at a particular point in time if they receive the experimental rather than the comparator intervention. When comparing interventions in a study or meta-analysis, a simplifying assumption is often made that the hazard ratio is constant across the follow-up period, even though hazards themselves may vary continuously. This is known as the proportional hazards assumption.
+
+#### Data extraction for time-to-event outcomes
+
+Meta-analysis of time-to-event data commonly involves obtaining individual patient data from the original investigators, re-analysing the data to obtain estimates of the hazard ratio and its statistical uncertainty, and then performing a meta-analysis (see Chapter 26). Conducting a meta-analysis using summary information from published papers or trial reports is often problematic as the most appropriate summary statistics often are not presented.
+
+Where summary statistics are presented, three approaches can be used to obtain estimates of hazard ratios and their uncertainty from study reports for inclusion in a meta-analysis using the generic inverse variance methods. For practical guidance, review authors should consult Tierney and colleagues (Tierney et al 2007).
+
+The first approach can be used when trialists have analysed the data using a Cox proportional hazards model (or some other regression models for survival data). Cox models produce direct estimates of the log hazard ratio and its SE, which are sufficient to perform a generic inverse variance meta-analysis. If the hazard ratio is quoted in a report together with a confidence interval or P value, an estimate of the SE can be obtained as described in Section 6.3.
+
+The second approach is to estimate the hazard ratio approximately using statistics computed during a log-rank analysis. Collaboration with a knowledgeable statistician is advised if this approach is followed. The log hazard ratio (experimental relative to comparator) is estimated by \((O-E)/V\), which has \(SE=1/V\), where \(O\) is the observed number of events on the experimental intervention, \(E\) is the log-rank expected number of events on the experimental intervention, \(O-E\) is the log-rank statistic and \(V\) is the variance of the log-rank statistic (Simmonds et al 2011).
+
+These statistics sometimes can be extracted from quoted statistics and survival curves (Parmar et al 1998, Williamson et al 2002). Alternatively, use can sometimes be made of aggregated data for each intervention group in each trial. For example, suppose that the data comprise the number of participants who have the event during the first year, second year, etc, and the number of participants who are event free and still being followed up at the end of each year. A log-rank analysis can be performed on these data, to provide the \(O-E\) and \(V\) values, although careful thought needs to be given to the handling of censored times. Because of the coarse grouping the log hazard ratio is estimated only approximately. In some reviews it has been referred to as a log odds ratio (Early Breast Cancer Trialists' Collaborative Group 1990). When the time intervals are large, a more appropriate approach is one based on interval-censored survival (Collett 1994).
+
+The third approach is to reconstruct approximate individual participant data from published Kaplan-Meier curves (Guyot et al 2012). This allows reanalysis of the data to estimate the hazard ratio, and also allows alternative approaches to analysis of the time-to-event data.
+
+### Conditional outcomes only available for subsets of participants
+
+Some study outcomes may only be applicable to a proportion of participants. For example, in subfertility trials the proportion of clinical pregnancies that miscarryfollowing treatment is often of interest to clinicians. By definition this outcome excludes participants who do not achieve an interim state (clinical pregnancy), so the comparison is not of all participants randomized. As a general rule it is better to re-define such outcomes so that the analysis includes all randomized participants. In this example, the outcome could be whether the woman has a'successful pregnancy' (becoming pregnant and reaching, say, 24 weeks or term). If miscarriage is the outcome of interest, then appropriate analysis can be performed using individual participant data, but is rarely possible using summary data. Another example is provided by a morbidity outcome measured in the medium or long term (e.g. development of chronic lung disease), when there is a distinct possibility of a death preventing assessment of the morbidity. A convenient way to deal with such situations is to combine the outcomes, for example as 'death or chronic lung disease'.
+
+Challenges arise when a continuous outcome (say a measure of functional ability or quality of life following stroke) is measured only on those who survive to the end of follow-up. Two unsatisfactory options are: (i) imputing zero functional ability scores for those who die (which may not appropriately represent the death state and will make the outcome severely skewed), and (ii) analysing the available data (which must be interpreted as a non-randomized comparison applicable only to survivors). The results of these analyses must be interpreted taking into account any disparity in the proportion of deaths between the two intervention groups. More sophisticated options are available, which may increasingly be applied by trial authors (Colantuoni et al 2018).
+
+### Chapter information
+
+**Editors:** Julian PT Higgins, Tianjing Li, Jonathan J Deeks
+
+**Acknowledgements:** This chapter builds on earlier versions of the _Handbook_. For details of previous authors and editors of the _Handbook_, see Preface. We are grateful to Judith Anzures, Mike Clarke, Miranda Cumpston, Peter Getzsche and Christopher Weir for helpful comments.
+
+**Funding:** JPTH is a member of the National Institute for Health Research (NIHR) Biomedical Research Centre at University Hospitals Bristol NHS Foundation Trust and the University of Bristol. JJD received support from the NIHR Birmingham Biomedical Research Centre at the University Hospitals Birmingham NHS Foundation Trust and the University of Birmingham. JPTH received funding from National Institute for Health Research Senior Investigator award NF-SI-0617-10145. The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR or the Department of Health.
+
+### References
+
+* Abrams et al. (2005) Abrams KR, Gillies CL, Lambert PC. Meta-analysis of heterogeneously reported trials assessing change from baseline. _Statistics in Medicine_ 2005; **24**: 3823-3844.
+* Ades et al. (2015) Ades AE, Lu G, Dias S, Mayo-Wilson E, Kounali D. Simultaneous synthesis of treatment effects and mapping to a common scale: an alternative to standardisation. _Research Synthesis Methods_ 2015; **6**: 96-107.
+* Ades et al. (2016)* Agresti (1996) Agresti A. _An Introduction to Categorical Data Analysis_. New York (NY): John Wiley & Sons; 1996.
+* Anzures-Cabrera et al. (2011) Anzures-Cabrera J, Sarpatwari A, Higgins JPT. Expressing findings from meta-analyses of continuous outcomes in terms of risks. _Statistics in Medicine_ 2011; **30**: 2967-2985.
+* Bland (2015) Bland M. Estimating mean and standard deviation from the sample size, three quartiles, minimum, and maximum. _International Journal of Statistics in Medical Research_ 2015; **4**: 57-64.
+* Colantuoni et al. (2018) Colantuoni E, Scharfstein DO, Wang C, Hashem MD, Leroux A, Needham DM, Girard TD. Statistical methods to compare functional outcomes in randomized controlled trials with high mortality. _BMJ_ 2018; **360**: 5j748.
+* Collett (1994) Collett D. _Modelling Survival Data in Medical Research_. London (UK): Chapman & Hall; 1994.
+* Deeks (1997a) Deeks J. Are you sure that's a standard deviation? (part 1). _Cochrane News_ 1997a; **10**: 11-12.
+* Deeks (1997b) Deeks J. Are you sure that's a standard deviation? (part 2). _Cochrane News_ 1997b; **11**: 11-12.
+* Deeks et al. (2001) Deeks JJ, Altman DG, Bradburn MJ. Statistical methods for examining heterogeneity and combining results from several studies in meta-analysis. In: Egger M, Davey Smith G, Altman DG, editors. _Systematic Reviews in Health Care: Meta-analysis in Context_. 2nd edition ed. London (UK): BMJ Publication Group; 2001. pp. 285-312.
+* Deeks (2002) Deeks JJ. Issues in the selection of a summary statistic for meta-analysis of clinical trials with binary outcomes. _Statistics in Medicine_ 2002; **21**: 1575-1600.
+* Dubey and Lehnhoff (1965) Dubey SD, Lehnhoff RW, Radike AW. A statistical confidence interval for true per cent reduction in caries-incidence studies. _Journal of Dental Research_ 1965; **44**: 921-923.
+* Early Breast Cancer Trialists' Collaborative Group (1990) Early Breast Cancer Trialists' Collaborative Group. _Treatment of Early Breast Cancer. Volume 1: Worldwide Evidence 1985-1990_. Oxford (UK): Oxford University Press; 1990.
+* Follmann et al. (1992) Follmann D, Elliott P, Suh I, Cutler J. Variance imputation for overviews of clinical trials with continuous response. _Journal of Clinical Epidemiology_ 1992; **45**: 769-773.
+* Friedrich et al. (2005) Friedrich JO, Adhikari N, Herridge MS, Beyene J. Meta-analysis: low-dose dopamine increases urine output but does not prevent renal dysfunction or death. _Annals of Internal Medicine_ 2005; **142**: 510-524.
+* Friedrich et al. (2008) Friedrich JO, Adhikari NK, Beyene J. The ratio of means method as an alternative to mean differences for analyzing continuous outcome variables in meta-analysis: a simulation study. _BMC Medical Research Methodology_ 2008; **8**: 32.
+* Furukawa et al. (2006) Furukawa TA, Barbui C, Cipriani A, Brambilla P, Watanabe N. Imputing missing standard deviations in meta-analyses can provide accurate results. _Journal of Clinical Epidemiology_ 2006; **59**: 7-10.
+* Guyot et al. (2012) Guyot P, Ades AE, Ouwens MJ, Welton NJ. Enhanced secondary analysis of survival data: reconstructing the data from published Kaplan-Meier survival curves. _BMC Medical Research Methodology_ 2012; **12**: 9.
+* Higgins et al. (2008) Higgins JPT, White IR, Anzures-Cabrera J. Meta-analysis of skewed data: combining results reported on log-transformed or raw scales. _Statistics in Medicine_ 2008; **27**: 6072-6092.
+* Hozo et al. (2005) Hozo SP, Djulbegovic B, Hozo I. Estimating the mean and variance from the median, range, and the size of a sample. _BMC Medical Research Methodology_ 2005; **5**: 13.
+* Johnston et al. (2010) Johnston BC, Thorlund K, Schunemann HJ, Xie F, Murad MH, Montori VM, Guyatt GH. Improving the interpretation of quality of life evidence in meta-analyses: the application of minimal important difference units. _Health and Quality of Life Outcomes_ 2010; **8**: 116.
+* Laupacis et al. (1988) Laupacis A, Sackett DL, Roberts RS. An assessment of clinically useful measures of the consequences of treatment. _New England Journal of Medicine_ 1988; **318**: 1728-1733.
+* Laupacis et al. (2008)MacLennan JM, Shackley F, Heath PT, Deeks JJ, Flamank C, Herbert M, Griffiths H, Hatzmann E, Goilav C, Moxon ER. Safety, immunogenicity, and induction of immunologic memory by a serogroup C meningococcal conjugate vaccine in infants: a randomized controlled trial. _JAMA_ 2000; **283**: 2795-2801.
+* Marinho VCC et al. (2003) Marinho VCC, Higgins JPT, Logan S, Sheiham A. Fluoride toothpaste for preventing dental caries in children and adolescents. _Cochrane Database of Systematic Reviews_ 2003; **1**: CD002278.
+* Parmar et al. (1998) Parmar MKB, Torri V, Stewart L. Extracting summary statistics to perform meta-analyses of the published literature for survival endpoints. _Statistics in Medicine_ 1998; **17**: 2815-2834.
+* Sackett et al. (1996) Sackett DL, Deeks JJ, Altman DG. Down with odds ratios! _Evidence Based Medicine_ 1996; **1**: 164-166.
+* Sackett et al. (1997) Sackett DL, Richardson WS, Rosenberg W, Haynes BR. _Evidence-Based Medicine: How to Practice and Teach EBM_. Edinburgh (UK): Churchill Livingstone; 1997.
+* Simmonds et al. (2011) Simmonds MC, Tierney J, Bowden J, Higgins JPT. Meta-analysis of time-to-event data: a comparison of two-stage methods. _Research Synthesis Methods_ 2011; **2**: 139-149.
+* Sinclair and Bracken (1994) Sinclair JC, Bracken MB. Clinically useful measures of effect in binary analyses of randomized trials. _Journal of Clinical Epidemiology_ 1994; **47**: 881-889.
+* Tierney et al. (2007) Tierney JF, Stewart LA, Ghersi D, Burdett S, Sydes MR. Practical methods for incorporating summary time-to-event data into meta-analysis. _Trials_ 2007; **8**.
+* Vickers (2001) Vickers AJ. The use of percentage change from baseline as an outcome in a controlled trial is statistically inefficient: a simulation study. _BMC Medical Research Methodology_ 2001; **1**: 6.
+* Walter and Yao (2007) Walter SD, Yao X. Effect sizes can be calculated for studies reporting ranges for outcome variables in systematic reviews. _Journal of Clinical Epidemiology_ 2007; **60**: 849-852.
+* Wan et al. (2014) Wan X, Wang W, Liu J, Tong T. Estimating the sample mean and standard deviation from the sample size, median, range and/or interquartile range. _BMC Medical Research Methodology_ 2014; **14**: 135.
+* Weir et al. (2018) Weir CJ, Butcher I, Assi V, Lewis SC, Murray GD, Langhorne P, Brady MC. Dealing with missing standard deviation and mean values in meta-analysis of continuous outcomes: a systematic review. _BMC Medical Research Methodology_ 2018; **18**: 25.
+* Williamson et al. (2002) Williamson PR, Smith CT, Hutton JL, Marson AG. Aggregate data meta-analysis with time-to-event outcomes. _Statistics in Medicine_ 2002; **21**: 3337-3351.
+
+## Chapter 7 Considering bias and conflicts of interest among the included studies
+
+Isabelle Boutron, Matthew J Page, Julian PT Higgins, Douglas G Altman, Andreas Lundh, Asbjarn Hrobjartsson; on behalf of the Cochrane Bias Methods Group
+
+This chapter should be cited as: Boutron I, Page MJ, Higgins JPT, Altman DG, Lundh A, Hrobjartsson A. Chapter 7: Considering bias and conflicts of interest among the included studies. In: Higgins JPT, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, Welch VA (editors). _Cochrane Handbook for Systematic Reviews of Interventions._ 2nd Edition. Chichester (UK): John Wiley & Sons, 2019: 177-204.
+
+finding may be due entirely to bias). A source of bias may even vary in direction across studies. For example, bias due to a particular design flaw such as lack of allocation sequence concealment may lead to under-estimation of an effect in one study but over-estimation in another (Juni et al 2001).
+
+Bias can arise because of the actions of primary study investigators or because of the actions of review authors, or may be unavoidable due to constraints on how research can be undertaken in practice. Actions of authors can, in turn, be influenced by conflicts of interest. In this chapter we introduce issues of bias in the context of a Cochrane Review, covering both biases in the results of included studies and biases in the results of a synthesis. We introduce the general principles of assessing the risk that bias may be present, as well as the presentation of such assessments and their incorporation into analyses. Finally, we address how source of funding and conflicts of interest of study authors may impact on study design, conduct and reporting. Conflicts of interest held by review authors are also of concern; these should be addressed using editorial procedures and are not covered by this chapter (see Chapter 1, Section 1.3).
+
+We draw a distinction between two places in which bias should be considered. The first is in the results of the _individual studies included in a systematic review_. Since the conclusions drawn in a review depend on the results of the included studies, if these results are biased, then a meta-analysis of the studies will produce a misleading conclusion. Therefore, review authors should systematically take into account **risk of bias in results of included studies** when interpreting the results of their review.
+
+The second place in which bias should be considered is the result of the _meta-analysis (or other synthesis) of findings from the included studies_. This result will be affected by biases in the included studies, and may **additionally** be affected by bias due to the absence of results from studies that should have been included in the synthesis. Specifically, the conclusions of the review may be compromised when decisions about how, when and where to report results of eligible studies are influenced by the nature and direction of the results. This is the problem of 'non-reporting bias' (also described as 'publication bias' and'selective reporting bias'). There is convincing evidence that results that are statistically non-significant and unfavourable to the experimental intervention are less likely to be published than statistically significant results, and hence are less easily identified by systematic reviews (see Section 7.2.3). This leads to results being missing systematically from syntheses, which can lead to syntheses over-estimating or under-estimating the effects of an intervention. For this reason, the assessment of **risk of bias due to missing results** is another essential component of a Cochrane Review.
+
+Both the risk of bias in included studies and risk of bias due to missing results may be influenced by **conflicts of interest of study investigators or funders**. For example, investigators with a financial interest in showing that a particular drug works may exclude participants who did not respond favourably to the drug from the analysis, or fail to report unfavourable results of the drug in a manuscript.
+
+Further discussion of assessing risk of bias in the results of an individual randomized trial is available in Chapter 8, and of a non-randomized study in Chapter 25. Further discussion of assessing risk of bias due to missing results is available in Chapter 13.
+
+#### Why consider _risk_ of bias?
+
+There is good empirical evidence that particular features of the design, conduct and analysis of randomized trials lead to bias on average, and that some results of randomized trials are suppressed from dissemination because of their nature. However, it is usually impossible to know to what extent biases have affected the results of a particular study or analysis (Savovic et al 2012). For these reasons, it is more appropriate to consider whether a result is at **risk of bias** rather than claiming with certainty that it is biased. Most recent tools for assessing the internal validity of findings from quantitative studies in health now focus on risk of bias, whereas previous tools targeted the broader notion of'methodological quality' (see also Section 7.1.2).
+
+Bias should not be confused with **imprecision**. Bias refers to _systematic error_, meaning that multiple replications of the same study would reach the wrong answer on average. Imprecision refers to _random error_, meaning that multiple replications of the same study will produce different effect estimates because of sampling variation, but would give the right answer on average. Precision depends on the number of participants and (for dichotomous outcomes) the number of events in a study, and is reflected in the confidence interval around the intervention effect estimate from each study. The results of smaller studies are subject to greater sampling variation and hence are less precise. A small trial may be at low risk of bias yet its result may be estimated very imprecisely, with a wide confidence interval. Conversely, the results of a large trial may be precise (narrow confidence interval) but also at a high risk of bias.
+
+Bias should also not be confused with the **external validity** of a study, that is, the extent to which the results of a study can be generalized to other populations and settings. For example, a study may enrol participants who are not representative of the population who most commonly experience a particular clinical condition. The results of this study may have limited generalizability to the wider population, but will not necessarily give a biased estimate of the effect in the highly specific population on which it is based. Factors influencing the applicability of an included study to the review question are covered in Chapters 14 and 15.
+
+#### From quality scales to domain-based tools
+
+Critical assessment of included studies has long been an important component of a systematic review or meta-analysis, and methods have evolved greatly over time. Early appraisal tools were structured as quality'scales', which combined information on several features into a single score. However, this approach was questioned after it was revealed that the type of quality scale used could significantly influence the interpretation of the meta-analysis results (Juni et al 1999). That is, risk ratios of trials deemed 'high quality' by some scales suggested that the experimental intervention was superior, whereas when trials were deemed 'high quality' by other scales, the opposite was the case. The lack of a theoretical framework underlying the concept of 'quality' assessed by these scales resulted in tools mixing different concepts such as risk of bias, imprecision, relevance, applicability, ethics, and completeness of reporting. Furthermore, the summary score combining these components is difficult to interpret (Juni et al 2001).

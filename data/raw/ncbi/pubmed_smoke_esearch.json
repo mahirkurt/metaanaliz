@@ -1,0 +1,20 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "227",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "41552868",
+      "41416232",
+      "41329145",
+      "41247420",
+      "41187250"
+    ],
+    "translationset": [],
+    "querytranslation": "\"adapalene\"[Title/Abstract] AND \"benzoyl peroxide\"[Title/Abstract]"
+  }
+}

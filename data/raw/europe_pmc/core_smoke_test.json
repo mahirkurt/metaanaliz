@@ -1,0 +1,1615 @@
+{
+  "version": "6.9",
+  "hitCount": 140,
+  "nextCursorMark": "AoIIQI/NUig1NDQ4NTAzMQ==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:\"adapalene\" AND TITLE:\"benzoyl peroxide\"&cursorMark=AoIIQI/NUig1NDQ4NTAzMQ==&resultType=core&pageSize=5&format=json",
+  "request": {
+    "queryString": "TITLE:\"adapalene\" AND TITLE:\"benzoyl peroxide\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41329145",
+        "source": "MED",
+        "pmid": "41329145",
+        "doi": "10.36849/jdd.9407",
+        "title": "Clindamycin Phosphate 1.2%/Adapalene 0.15%/ Benzoyl Peroxide 3.1% Gel for Moderate-to-Severe Acne: A Pooled Analysis by Age.",
+        "authorString": "Kircik LH, Harper JC, Baldwin H, Eichenfield LF, Tanghetti EA, Graber E, Woolery-Lloyd HC, Guenin E, Draelos ZD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kircik LH",
+              "firstName": "Leon H",
+              "lastName": "Kircik",
+              "initials": "LH"
+            },
+            {
+              "fullName": "Harper JC",
+              "firstName": "Julie C",
+              "lastName": "Harper",
+              "initials": "JC"
+            },
+            {
+              "fullName": "Baldwin H",
+              "firstName": "Hilary",
+              "lastName": "Baldwin",
+              "initials": "H"
+            },
+            {
+              "fullName": "Eichenfield LF",
+              "firstName": "Lawrence F",
+              "lastName": "Eichenfield",
+              "initials": "LF"
+            },
+            {
+              "fullName": "Tanghetti EA",
+              "firstName": "Emil A",
+              "lastName": "Tanghetti",
+              "initials": "EA"
+            },
+            {
+              "fullName": "Graber E",
+              "firstName": "Emmy",
+              "lastName": "Graber",
+              "initials": "E"
+            },
+            {
+              "fullName": "Woolery-Lloyd HC",
+              "firstName": "Heather C",
+              "lastName": "Woolery-Lloyd",
+              "initials": "HC"
+            },
+            {
+              "fullName": "Guenin E",
+              "firstName": "Eric",
+              "lastName": "Guenin",
+              "initials": "E"
+            },
+            {
+              "fullName": "Draelos ZD",
+              "firstName": "Zoe D",
+              "lastName": "Draelos",
+              "initials": "ZD"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "24",
+          "journalIssueId": 4060839,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "printPublicationDate": "2025-12-01",
+          "journal": {
+            "title": "Journal of drugs in dermatology : JDD",
+            "medlineAbbreviation": "J Drugs Dermatol",
+            "isoabbreviation": "J Drugs Dermatol",
+            "nlmid": "101160020",
+            "issn": "1545-9616"
+          }
+        },
+        "pubYear": "2025",
+        "pageInfo": "1186-1194",
+        "abstractText": "<h4>Background</h4>Acne pathophysiology and presentation may differ between pediatric/adolescent/young adult (9-24 years) and adult (&ge;25 years) patients. Fixed-dose clindamycin phosphate 1.2%/adapalene 0.15%/benzoyl peroxide 3.1% (CAB) gel demonstrated superior efficacy to vehicle and component dyads with good safety/tolerability in 3 clinical trials of acne. This post hoc analysis evaluated the efficacy/safety of CAB in pediatric/adolescent/young adult (\"younger\") vs adult participants.<h4>Methods</h4>In one phase 2 (NCT03170388) and two phase 3 (NCT04214652, NCT04214639) trials, participants aged greater than or equal to 9 years with moderate-to-severe acne were randomized to once-daily CAB or vehicle gel. Pooled data were analyzed for participants grouped by age: younger (9-24 years; n=515) and adult (greater than or equal to 25 years; n=142). Endpoints included the percentage of participants achieving treatment success (greater than or equal to 2-grade reduction from baseline in Evaluator's Global Severity Score and clear/almost clear skin) and least squares mean percent change from baseline in inflammatory/noninflammatory lesions at week 12. Treatment-emergent adverse events (TEAEs) were evaluated throughout.<h4>Results</h4>At week 12, approximately half of CAB-treated participants in both age groups achieved treatment success (9-24: 50.6%; greater than or equal to 25: 49.0%) vs less than one-fourth with vehicle (15.7%; 20.6%; P&lt;0.01, both). Across groups, CAB yielded &gt;70% reductions in inflammatory/noninflammatory lesions vs 45% to 62% with vehicle (P&le;0.001, all). For all endpoints, CAB efficacy was similar across age groups. Most TEAEs with CAB were of mild-to-moderate severity, and there were no age-related trends in safety/tolerability.<h4>Conclusions</h4>Fixed-dose, triple-combination CAB gel was efficacious and well tolerated in participants with moderate-to-severe acne, regardless of age. Approximately half of the participants achieved clear/almost clear skin, with &gt;70% reductions in lesion counts.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acne Vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzoyl Peroxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Clindamycin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dermatologic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Combinations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Cutaneous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Severity of Illness Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Age Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Drug Combinations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dermatologic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoyl Peroxide",
+              "registryNumber": "W9WZN9A0GM"
+            },
+            {
+              "name": "Clindamycin",
+              "registryNumber": "3U02EL437C"
+            },
+            {
+              "name": "clindamycin phosphate",
+              "registryNumber": "EH6D7113I8"
+            },
+            {
+              "name": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.36849/JDD.9407"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-12-02",
+        "dateOfCreation": "2025-12-02",
+        "firstIndexDate": "2025-12-03",
+        "dateOfRevision": "2025-12-29",
+        "firstPublicationDate": "2025-12-01"
+      },
+      {
+        "id": "40773616",
+        "source": "MED",
+        "pmid": "40773616",
+        "doi": "10.36849/jdd.9212",
+        "title": "Safety and Tolerability of Clindamycin Phosphate 1.2%/Adapalene 0.15%/Benzoyl Peroxide 3.1% Gel for Truncal Acne.",
+        "authorString": "Kircik LH, Harper JC, Gold M, Gold LS, Draelos ZD, Guenin E, Choi SY, Wroblewski K, Baldwin H, Callender VD, Hebert AA, Weiss JS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kircik LH",
+              "firstName": "Leon H",
+              "lastName": "Kircik",
+              "initials": "LH"
+            },
+            {
+              "fullName": "Harper JC",
+              "firstName": "Julie C",
+              "lastName": "Harper",
+              "initials": "JC"
+            },
+            {
+              "fullName": "Gold M",
+              "firstName": "Michael",
+              "lastName": "Gold",
+              "initials": "M"
+            },
+            {
+              "fullName": "Gold LS",
+              "firstName": "Linda Stein",
+              "lastName": "Gold",
+              "initials": "LS"
+            },
+            {
+              "fullName": "Draelos ZD",
+              "firstName": "Zoe D",
+              "lastName": "Draelos",
+              "initials": "ZD"
+            },
+            {
+              "fullName": "Guenin E",
+              "firstName": "Eric",
+              "lastName": "Guenin",
+              "initials": "E"
+            },
+            {
+              "fullName": "Choi SY",
+              "firstName": "Su Yong",
+              "lastName": "Choi",
+              "initials": "SY"
+            },
+            {
+              "fullName": "Wroblewski K",
+              "firstName": "Karol",
+              "lastName": "Wroblewski",
+              "initials": "K"
+            },
+            {
+              "fullName": "Baldwin H",
+              "firstName": "Hilary",
+              "lastName": "Baldwin",
+              "initials": "H"
+            },
+            {
+              "fullName": "Callender VD",
+              "firstName": "Valerie D",
+              "lastName": "Callender",
+              "initials": "VD"
+            },
+            {
+              "fullName": "Hebert AA",
+              "firstName": "Adelaide A",
+              "lastName": "Hebert",
+              "initials": "AA"
+            },
+            {
+              "fullName": "Weiss JS",
+              "firstName": "Jonathan S",
+              "lastName": "Weiss",
+              "initials": "JS"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "24",
+          "journalIssueId": 3991517,
+          "dateOfPublication": "2025 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2025,
+          "printPublicationDate": "2025-08-01",
+          "journal": {
+            "title": "Journal of drugs in dermatology : JDD",
+            "medlineAbbreviation": "J Drugs Dermatol",
+            "isoabbreviation": "J Drugs Dermatol",
+            "nlmid": "101160020",
+            "issn": "1545-9616"
+          }
+        },
+        "pubYear": "2025",
+        "pageInfo": "803-809",
+        "abstractText": "<h4>Background</h4>Truncal acne is underdiagnosed and undertreated, and it can lead to scarring and postinflammatory hyperpigmentation. However, applying topical treatments to larger skin surface areas introduces additional safety/tolerability concerns. Clindamycin phosphate 1.2%/adapalene 0.15%/benzoyl peroxide 3.1% (CAB) gel is the only fixed-dose, triple-combination topical for acne and has demonstrated favorable efficacy/safety in participants with facial acne.<h4>Methods</h4>Data were pooled from one phase 2 (NCT04892706) and two phase 3 (NCT04214639, NCT04214652), double-blind, 12-week studies. Participants aged &ge;9 years (&ge;12 years, phase 2) with moderate to severe facial acne were randomized to once daily CAB or vehicle gel. Truncal acne treatment was optional, and efficacy was not the main outcome. Truncal treatment-emergent adverse events (TEAEs) and truncal cutaneous safety/tolerability were evaluated through week 12. Only participants treating both face and trunk were included in this post hoc analysis (CAB, n=118; vehicle, n=101).<h4>Results</h4>Through week 12, TEAE rates on the trunk were higher with CAB vs vehicle (5.9% vs 1.0%). Most TEAEs were mild, none were serious, and only 1 participant (CAB-treated) discontinued due to TEAEs. Mean truncal cutaneous safety/tolerability scores with CAB were &lt;0.5 (1=mild) at all visits. Severe (grade 3) ratings postbaseline occurred in &lt;1% of CAB-treated participants for erythema, hyperpigmentation, and burning (n=1 each).<h4>Conclusions</h4>In this pooled analysis, fixed-dose CAB gel was well tolerated over 12 weeks in participants treating their truncal acne. The lack of safety signals combined with the favorable safety/tolerability profile of CAB shows that it is a safe treatment option for truncal and facial acne.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acne Vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzoyl Peroxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Clindamycin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dermatologic Agents"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Combinations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Cutaneous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Clinical Trials, Phase II as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Clinical Trials, Phase III as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Drug Combinations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dermatologic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoyl Peroxide",
+              "registryNumber": "W9WZN9A0GM"
+            },
+            {
+              "name": "Clindamycin",
+              "registryNumber": "3U02EL437C"
+            },
+            {
+              "name": "clindamycin phosphate",
+              "registryNumber": "EH6D7113I8"
+            },
+            {
+              "name": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.36849/JDD.9212"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-08-07",
+        "dateOfCreation": "2025-08-07",
+        "firstIndexDate": "2025-08-08",
+        "dateOfRevision": "2025-08-15",
+        "firstPublicationDate": "2025-08-01"
+      },
+      {
+        "id": "41187231",
+        "source": "MED",
+        "pmid": "41187231",
+        "doi": "10.36849/jdd.9213",
+        "title": "Assessing Cutibacterium Acnes Susceptibility With Clindamycin Phosphate 1.2%/Adapalene 0.15%/Benzoyl Peroxide 3.1% Gel Use: Six-Month Analysis.",
+        "authorString": "Ghannoum M, Eltokhy A, Sewake J, McCormick T, Bhatia N, Baldwin H, Gold LS, Harper JC, Zeichner JA, Lain ET, Callender VD, Guenin E, Draelos ZD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ghannoum M",
+              "firstName": "Mahmoud",
+              "lastName": "Ghannoum",
+              "initials": "M"
+            },
+            {
+              "fullName": "Eltokhy A",
+              "firstName": "Ahmed",
+              "lastName": "Eltokhy",
+              "initials": "A"
+            },
+            {
+              "fullName": "Sewake J",
+              "firstName": "James",
+              "lastName": "Sewake",
+              "initials": "J"
+            },
+            {
+              "fullName": "McCormick T",
+              "firstName": "Thomas",
+              "lastName": "McCormick",
+              "initials": "T"
+            },
+            {
+              "fullName": "Bhatia N",
+              "firstName": "Neal",
+              "lastName": "Bhatia",
+              "initials": "N"
+            },
+            {
+              "fullName": "Baldwin H",
+              "firstName": "Hilary",
+              "lastName": "Baldwin",
+              "initials": "H"
+            },
+            {
+              "fullName": "Gold LS",
+              "firstName": "Linda Stein",
+              "lastName": "Gold",
+              "initials": "LS"
+            },
+            {
+              "fullName": "Harper JC",
+              "firstName": "Julie C",
+              "lastName": "Harper",
+              "initials": "JC"
+            },
+            {
+              "fullName": "Zeichner JA",
+              "firstName": "Joshua A",
+              "lastName": "Zeichner",
+              "initials": "JA"
+            },
+            {
+              "fullName": "Lain ET",
+              "firstName": "Edward Ted",
+              "lastName": "Lain",
+              "initials": "ET"
+            },
+            {
+              "fullName": "Callender VD",
+              "firstName": "Valerie D",
+              "lastName": "Callender",
+              "initials": "VD"
+            },
+            {
+              "fullName": "Guenin E",
+              "firstName": "Eric",
+              "lastName": "Guenin",
+              "initials": "E"
+            },
+            {
+              "fullName": "Draelos ZD",
+              "firstName": "Zoe D",
+              "lastName": "Draelos",
+              "initials": "ZD"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "24",
+          "journalIssueId": 4042398,
+          "dateOfPublication": "2025 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2025,
+          "printPublicationDate": "2025-11-01",
+          "journal": {
+            "title": "Journal of drugs in dermatology : JDD",
+            "medlineAbbreviation": "J Drugs Dermatol",
+            "isoabbreviation": "J Drugs Dermatol",
+            "nlmid": "101160020",
+            "issn": "1545-9616"
+          }
+        },
+        "pubYear": "2025",
+        "pageInfo": "1106-1111",
+        "abstractText": "<h4>Background</h4>The only approved triple-combination acne treatment &ndash; clindamycin phosphate 1.2%/adapalene 0.15%/benzoyl peroxide 3.1% (CAB) gel - demonstrated efficacy/safety in 12-week clinical trials. However, real-world treatment may require 6 months for maximum benefits in some cases. Since long-term antibiotic use can lead to resistance in the causative Cutibacterium acnes (C. acnes), this analysis evaluated the effect of long-term CAB use on C. acnes.<h4>Methods</h4>Pooled data from 2 identical, 24-week, single-center, open-label studies evaluated once-daily CAB in participants aged &ge;12 years with moderate/severe acne (Investigator's Global Assessment [IGA] of 3/4). Plates inoculated with central forehead swabs were monitored for C. acnes colony formation. Clindamycin susceptibility was assessed via minimum inhibitory concentration (MIC) values using Epsilometer tests; MIC &ge;8 &mu;g/mL indicated resistance.<h4>Results</h4>Of 50 participants enrolled, 45 completed the studies. At baseline, C. acnes strains were isolated from 82% (37/45) of participants. After 24 weeks, CAB-treated participants with cultivable isolates decreased by nearly half to 44% (20/45). For susceptible strains isolated at week 24, MIC values remained low (mean, 0.19 &mu;g/mL). Only 1 participant without growth at baseline had cultivable C. acnes at week 24, deemed clindamycin-susceptible. Only the 5 participants (11%) with resistant C. acnes isolates at baseline had resistant isolates at study end, though all 5 had acne improvements at week 24 (IGA decrease, 1-3 points; lesion reductions, 40%-100%).<h4>Conclusions</h4>Long-term CAB gel treatment did not lead to antibiotic resistance development and was efficacious in participants with resistant isolates at baseline, suggesting CAB is well suited for long-term acne treatment.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Propionibacterium acnes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acne Vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzoyl Peroxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Clindamycin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dermatologic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Combinations"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Resistance, Bacterial"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Adapalene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Combinations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dermatologic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "adapalene",
+              "registryNumber": "1L4806J2QF"
+            },
+            {
+              "name": "Benzoyl Peroxide",
+              "registryNumber": "W9WZN9A0GM"
+            },
+            {
+              "name": "Clindamycin",
+              "registryNumber": "3U02EL437C"
+            },
+            {
+              "name": "clindamycin phosphate",
+              "registryNumber": "EH6D7113I8"
+            },
+            {
+              "name": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.36849/JDD.9213"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-11-04",
+        "dateOfCreation": "2025-11-04",
+        "firstIndexDate": "2025-11-04",
+        "dateOfRevision": "2025-11-04",
+        "firstPublicationDate": "2025-11-01"
+      },
+      {
+        "id": "41552868",
+        "source": "MED",
+        "pmid": "41552868",
+        "doi": "10.1080/09546634.2026.2612873",
+        "title": "Long-term efficacy and tolerability of clindamycin phosphate 1.2%/adapalene 0.15%/benzoyl peroxide 3.1% gel for acne: pooled results from two 6-month studies.",
+        "authorString": "Draelos ZD, Baldwin H, Harper JC, Ghannoum M, Gold LS, Tanghetti EA, Wroblewski K, Kircik LH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Draelos ZD",
+              "firstName": "Zoe D",
+              "lastName": "Draelos",
+              "initials": "ZD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dermatology Consulting Services, High Point, NC, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baldwin H",
+              "firstName": "Hilary",
+              "lastName": "Baldwin",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Acne Treatment and Research Center, Brooklyn, NY, USA."
+                  },
+                  {
+                    "affiliation": "Department of Dermatology, Robert Wood Johnson University Hospital, New Brunswick, NJ, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harper JC",
+              "firstName": "Julie C",
+              "lastName": "Harper",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dermatology & Skin Care Center of Birmingham, Birmingham, AL, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ghannoum M",
+              "firstName": "Mahmoud",
+              "lastName": "Ghannoum",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology, Case Western Reserve University, Cleveland, OH, USA."
+                  },
+                  {
+                    "affiliation": "Department of Dermatology, University Hospitals Cleveland Medical Center, Cleveland, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gold LS",
+              "firstName": "Linda Stein",
+              "lastName": "Gold",
+              "initials": "LS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology, Henry Ford Hospital, Detroit, MI, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tanghetti EA",
+              "firstName": "Emil A",
+              "lastName": "Tanghetti",
+              "initials": "EA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Dermatology and Laser Surgery, Sacramento, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wroblewski K",
+              "firstName": "Karol",
+              "lastName": "Wroblewski",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Practice and Administration, Rutgers University, New Brunswick, NJ, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kircik LH",
+              "firstName": "Leon H",
+              "lastName": "Kircik",
+              "initials": "LH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+                  },
+                  {
+                    "affiliation": "Department of Dermatology, Indiana University School of Medicine, Indianapolis, IN, USA."
+                  },
+                  {
+                    "affiliation": "Physicians Skin Care, DermResearch, and Skin Sciences, Louisville, KY, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "37",
+          "journalIssueId": 4076786,
+          "dateOfPublication": "2026 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2026,
+          "printPublicationDate": "2026-12-01",
+          "journal": {
+            "title": "The Journal of dermatological treatment",
+            "medlineAbbreviation": "J Dermatolog Treat",
+            "isoabbreviation": "J Dermatolog Treat",
+            "nlmid": "8918133",
+            "issn": "0954-6634",
+            "essn": "1471-1753"
+          }
+        },
+        "pubYear": "2026",
+        "pageInfo": "2612873",
+        "abstractText": "<h4>Aim</h4>Given the chronic nature of acne, two 6-month studies were conducted to evaluate the long-term efficacy and tolerability of clindamycin phosphate 1.2%/adapalene 0.15%/benzoyl peroxide (BPO) 3.1% gel (CAB)-the only approved triple-combination acne topical-and its effects on scarring/dyspigmentation in participants with moderate to severe acne.<h4>Materials and methods</h4>Data were pooled from 2 identical, open-label, single-center studies conducted in participants (<i>N</i> = 50) aged ≥12 years with Investigator's Global Assessment (IGA) score of 3/4. Endpoints included change from baseline in IGA score, inflammatory/noninflammatory lesions, skin appearance (dryness, postinflammatory hyperpigmentation [PIH], postinflammatory erythema [PIE]), and scarring. Adverse events and tolerability (itching, burning, redness, swelling) were assessed.<h4>Results</h4>At week 24, 67% of participants achieved treatment success, and significant reductions from baseline in inflammatory (88%) and noninflammatory (68%) lesions were observed (<i>p</i> < 0.001, both). Significant reductions in scarring (33%), investigator- and participant-assessed PIH (71%; 78%, respectively), and PIE (77%; 77%, respectively) were demonstrated (<i>p</i> < 0.001, all). Most participants (>70%) reported no tolerability issues throughout the studies. Seven adverse events occurred; 4 were related to CAB, and 3 led to study discontinuation (BPO allergy [<i>n</i> = 2], irritant contact dermatitis to BPO [<i>n</i> = 1]).<h4>Conclusions</h4>These findings suggest that CAB is an appropriate and effective topical option for the long-term treatment of acne vulgaris.",
+        "affiliation": "Dermatology Consulting Services, High Point, NC, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ortho Dermatologics",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cicatrix",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acne Vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzoyl Peroxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Clindamycin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dermatologic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Combinations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Cutaneous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Severity of Illness Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Antibiotic",
+            "Antimicrobial",
+            "Combination treatment",
+            "Scarring",
+            "Long-term Treatment",
+            "Retinoid",
+            "Hyperpigmentation"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Drug Combinations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dermatologic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoyl Peroxide",
+              "registryNumber": "W9WZN9A0GM"
+            },
+            {
+              "name": "Clindamycin",
+              "registryNumber": "3U02EL437C"
+            },
+            {
+              "name": "clindamycin phosphate",
+              "registryNumber": "EH6D7113I8"
+            },
+            {
+              "name": "Adapalene, Benzoyl Peroxide Drug Combination",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/09546634.2026.2612873"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by-nc",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-01-19",
+        "dateOfCreation": "2026-01-19",
+        "firstIndexDate": "2026-01-19",
+        "dateOfRevision": "2026-01-19",
+        "electronicPublicationDate": "2026-01-18",
+        "firstPublicationDate": "2026-01-18"
+      },
+      {
+        "id": "41416232",
+        "source": "MED",
+        "pmid": "41416232",
+        "pmcid": "PMC12710872",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12710872"
+          ]
+        },
+        "title": "Clindamycin Phosphate 1.2%/Adapalene 0.15%/Benzoyl Peroxide 3.1% to Treat Acne Induced by Janus Kinase Inhibitor Treatment: A Case Report.",
+        "authorString": "Olszewski N, Bunick CG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Olszewski N",
+              "firstName": "Nicole",
+              "lastName": "Olszewski",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ms. Olszewski is with the Yale Center for Clinical Investigation at the Yale School of Medicine in New Haven, Connecticut."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bunick CG",
+              "firstName": "Christopher G",
+              "lastName": "Bunick",
+              "initials": "CG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dr. Bunick is with the Department of Dermatology and Program in Translational Biomedicine at the Yale School of Medicine in New Haven, Connecticut."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "18",
+          "journalIssueId": 4076158,
+          "dateOfPublication": "2025 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2025,
+          "printPublicationDate": "2025-09-01",
+          "journal": {
+            "title": "The Journal of clinical and aesthetic dermatology",
+            "medlineAbbreviation": "J Clin Aesthet Dermatol",
+            "isoabbreviation": "J Clin Aesthet Dermatol",
+            "nlmid": "101518173",
+            "issn": "1941-2789",
+            "essn": "2689-9175"
+          }
+        },
+        "pubYear": "2025",
+        "pageInfo": "36-39",
+        "abstractText": "Janus kinase inhibitors (JAKi)-developed to treat inflammatory and immune-mediated diseases-have shown an increased risk of acne development, especially when used to treat dermatologic conditions. There are no treatment guidelines for JAKi-induced acne. Some of the most efficacious treatments for acne vulgaris (AV) are triple combinations, including benzoyl peroxide (BPO), a topical retinoid, and an oral/topical antibiotic. Fixed-dose, triple-combination clindamycin phosphate 1.2%/adapalene 0.15%/BPO 3.1% (CAB) gel has demonstrated good efficacy, safety, and tolerability in Phase 2 and 3 clinical trials of participants with moderate to severe AV. This case report highlights the possible utility of once-daily CAB for JAKi-induced acne. A 15-year-old female patient was administered the oral JAKi upadacitinib (15mg daily) for 16 weeks to treat atopic dermatitis that inadequately responded to dupilumab. The patient had mild preexisting comedonal and inflammatory facial AV prior to JAKi treatment. Over the first few months of JAKi treatment, her acne worsened to moderate/severe inflammatory acne, with erythema and postinflammatory hyperpigmentation. The patient applied CAB gel to the face once daily for approximately 20 weeks with substantial acne improvement and without adverse effects. CAB treatment reduced her acne severity to mild to almost clear, and no significant acne-induced sequelae (scarring, postinflammatory hyperpigmentation, or erythema) were observed. She continues treatment with both CAB and upadacitinib. Treatment guidelines for AV often recommend oral drugs, such as isotretinoin, for moderate-to-severe acne. This case presented here, however, demonstrates that topical CAB gel can treat moderate to severe JAKi-induced inflammatory acne.",
+        "affiliation": "Ms. Olszewski is with the Yale Center for Clinical Investigation at the Yale School of Medicine in New Haven, Connecticut.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Antibiotic",
+            "ACNE",
+            "Benzoyl Peroxide",
+            "Retinoid",
+            "Topical",
+            "Fixed-dose",
+            "Janus Kinase Inhibitor"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12710872"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12710872?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-12-19",
+        "dateOfCreation": "2025-12-19",
+        "firstIndexDate": "2025-12-19",
+        "fullTextReceivedDate": "2025-12-19",
+        "dateOfRevision": "2025-12-21",
+        "firstPublicationDate": "2025-09-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1417 @@
+
+
+<!-- pages 1-25 -->
+
+**Abstract**
+
+The study of the influence of the
+
+## Cochrane Handbook for Systematic Reviews of Interventions
+
+Second Edition
+
+_Edited by Julian P.T. Higgins, James Thomas, Jacqueline Chandler, Miranda Cumpston, Tianjing Li, Matthew J. Page and Vivian A. Welch_This edition first published 2019
+
+(c) 2019 The Cochrane Collaboration
+
+This work is a co-publication between The Cochrane Collaboration and John Wiley & Sons Ltd.
+
+_Edition History_
+
+The Cochrane Collaboration
+
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, except as permitted by law. Advice on how to obtain permission to reuse material from this title is available at [http://www.wiley.com/go/permissions](http://www.wiley.com/go/permissions).
+
+The right of Julian P.T. Higgins, James Thomas, Jacqueline Chandler, Miranda Campston, Tianjing Li, Matthew J. Page, Vivian A. Welch to be identified as the authors of the editorial material in this work has been asserted in accordance with law.
+
+_Registered Office(s)_
+
+John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030, USA
+
+John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex, PO19 8SQ, UK
+
+_Editorial Office_
+
+9600 Garsington Road, Oxford, OX 2DQ, UK
+
+For details of our global editorial offices, customer services, and more information about Wiley products visit us at www.wiley.com.
+
+_Wiley also publishes its books in a variety of electronic formats and by print-on-demand. Some content that appears in standard print versions of this book may not be available in other formats._
+
+_Limit of Libability/Disclaimer of Warranty_
+
+The contents of this work are intended to further general scientific research, understanding, and discussion only and are not intended and should not be relied upon as recommending or promoting scientific method, diagnosis, or treatment by physicians for any particular patient. In view of ongoing research, equipment modifications, changes in governmental regulations, and the constant flow of information relating to the use of medicines, equipment, and devices, the reader is urged to review and evaluate the information provided in the package insert or instructions for each medicine, equipment, or device for, among other things, any changes in the instructions or indication of usage and for added warnings and precautions. While the publisher and authors have used their best efforts in preparing this work, they make no representations or warranties with respect to the accuracy or completeness of the contents of this work and specifically disclaim all warranties, including without limitation any implied warranties of merchantability or fitness for a particular purpose. No warranty may be created or extended by sales representatives, written sales materials or promotional statements for this work. The fact that an organization, website, or product is referred to in this work as a citation and/or potential source of further information does not mean that the publisher and authors endorse the information or services the organization, website, or product may provide or recommendations it may make. This work is sold with the understanding that the publisher is not engaged in rendering professional services. The advice and strategies contained herein may not be suitable for your situation. You should consult with a specialist where appropriate. Further, readers should be aware that websites listed in this work may have changed or disappeared between when this work was written and when it is read. Neither the publisher nor authors shall be liable for any loss of profit or any other commercial damages, including but not limited to special, incidental, consequential, or other damages.
+
+_Library of Congress Cataloging-in-Publication Data_
+
+Names: Higgins, Julian P. T., editor. | Cochrane Collaboration, issuing body.
+
+Title: Cochrane handbook for systematic reviews of interventions / edited by
+
+Julian P. Higgins, James Thomas, Jacqueline Chandler, Miranda Campston,
+
+Tianjing Li, Matthew J. Page, Vivian A. Welch.
+
+Other titles: Cochrane book series.
+
+Description: Second edition. | Hoboken, NJ : Wiley-Blackwell, 2019. | Series:
+
+Cochrane book series | includes bibliographical references and index. |
+
+"This work is a co-publication between The Cochrane Collaboration and John Wiley & Sons Ltd."-ECIP title page verso.
+
+Identifiers: LCCN 20190245391 ISBN 9781119536628 (hardback) | ISBN 9781111953661(adobe pdf) | ISBN 978111195336659 (epub)
+
+Subjects: | MESH: Outcome and Process Assessment (Health Care) |
+
+Evidence-Based Medicine-methods | Meta-Analysis as Topic | Systematic
+
+Reviews as Topic
+
+Classification: LCC RA427.3 | NLM W 84.41 | DDC 362.1-dc23 LC record available at [https://lccn.loc.gov/2019024539](https://lccn.loc.gov/2019024539)
+
+_Cover_ image: @ ltrigon2002/$Stock.com, @ Erazion/$Stock.com, @ Raycat/$Stock.com, @ atoss/$Stock.com, @ ambph/
+
+Stock.com, @ shapecharge/$Stock.com, @ adventurt/$Stock.com, @ PeopleImages/$Stock.com, @ Abel Mitja Varela/
+
+Stock.com, @ kiankhoon/$Stock.com, @ Wavebreakmedia/$Stock.com, @ $comeback/$Stock.com, @ leoniepow/
+
+Stock.com
+
+Cover design by Wiley
+
+Set in 10/12pt SourceSansPro by SPI Global, Pondicherry, India
+
+Printed in the UK by Bell & Bain Ltd, Glasgow
+
+HB printing 10 9 8 7 6 5 4 3 2 1
+
+###### Contents
+
+* 1 Starting a review 3
+	* 1.1 Why do a systematic review? 3
+	* 1.2 What is the review question? 4
+	* 1.3 Who should do a systematic review? 5
+	* 1.4 The importance of reliability 7
+	* 1.5 Protocol development 8
+	* 1.6 Data management and quality assurance 11.7 Chapter information 12
+	* 1.8 References 12
+* 2 Determining the scope of the review and the questions it will address 13
+	* 2.1 Rationale for well-formulated questions 13
+	* 2.2 Aims of reviews of interventions 15
+	* 2.3 Defining the scope of a review question 16
+	* 2.4 Ensuring the review addresses the right questions 21
+	* 2.5 Methods and tools for structuring the review 24
+	* 2.6 Chapter information 29
+	* 2.7 References 29
+* 3 Defining the criteria for including studies and how they will be grouped for the synthesis 33
+	* 3.1 Introduction 33
+	* 3.2 Articulating the review and comparison PICO 35
+	* 3.3 Determining which study designs to include 51
+	* 3.4 Eligibility based on publication status and language 60
+	* 3.5 Chapter information 61
+	* 3.6 References 61
+* 4Searching for and selecting studies 67
+* 4.1Introduction 68
+* 4.2General issues 68
+* 4.3Sources to search 70
+* 4.4Designing search strategies 79
+* 4.5Documenting and reporting the search process 90
+* 4.6Selecting studies 92
+* 4.7Chapter information 99
+* 4.8References 99
+
+* 5Collecting data 109
+* 5.1Introduction 109
+* 5.2Sources of data 110
+* 5.3What data to collect 114
+* 5.4Data collection tools 125
+* 5.5Extracting data from reports 130
+* 5.6Extracting study results and converting to the desired format 136
+* 5.7Managing and sharing data 136
+* 5.8Chapter information 137
+* 6Choosing effect measures and computing estimates of effect 143
+* 6.1Types of data and effect measures 143
+* 6.2Study designs and identifying the unit of analysis 145
+* 6.3Extracting estimates of effect directly 148
+* 6.4Dichotomous outcome data 150
+* 6.5Continuous outcome data 156
+* 6.6Ordinal outcome data and measurement scales 168
+* 6.7Count and rate data 170
+* 6.8Time-to-event data 172
+* 6.9Conditional outcomes only available for subsets of participants 173
+* 6.10Chapter information 174
+* 7Considering bias and conflicts of interest among the included studies 177
+* 7.1Introduction 177
+* 7.2Empirical evidence of bias 180
+* 7.3General procedures for risk-of-bias assessment 185
+* 7.4Presentation of assessment of risk of bias 188
+* 7.5Summary assessments of risk of bias 188
+* 7.6Incorporating assessment of risk of bias into analyses 190
+* 7.7Considering risk of bias due to missing results 192
+* 7.8Considering source of funding and conflict of interest of authors of included studies 193
+* 7.9Chapter information 199
+* 7.10References 199
+
+###### Abstract
+
+The study of the influence of the11.7 Concluding remarks 315
+
+11.8 Chapter information 316
+
+11.9 References 316
+
+12 Synthesizing and presenting findings using other methods 321
+
+12.1 Why a meta-analysis of effect estimates may not be possible 321
+
+12.2 Statistical synthesis when meta-analysis of effect estimates is not possible 324
+
+12.3 Visual display and presentation of the data 330
+
+12.4 Worked example 333
+
+12.5 Chapter information 345
+
+12.6 References 346
+
+13 Assessing risk of bias due to missing results in a synthesis 349
+
+13.1 Introduction 350
+
+13.2 Minimizing risk of bias due to missing results 351
+
+13.3 A framework for assessing risk of bias due to missing results in a synthesis 354
+
+13.4 Summary 369
+
+13.5 Chapter information 370
+
+13.6 References 370
+
+14 Completing 'Summary of findings' tables and grading the certainty of the evidence 375
+
+14.1 'Summary of findings' tables 375
+
+14.2 Assessing the certainty or quality of a body of evidence 389
+
+14.3 Describing the assessment of the certainty of a body of evidence using the GRADE framework 398
+
+14.4 Chapter information 399
+
+14.5 References 399
+
+15 Interpreting results and drawing conclusions 403
+
+15.1 Introduction 403
+
+15.2 Issues of indirectness and applicability 405
+
+15.3 Interpreting results of statistical analyses 408
+
+15.4 Interpreting results from dichotomous outcomes (including numbers needed to treat) 411
+
+15.5 Interpreting results from continuous outcomes (including standardized mean differences) 416
+
+15.6 Drawing conclusions 422
+
+15.7 Chapter information 427
+
+15.8 References 428
+
+Part Two Specific perspectives in reviews 433
+
+16 Equity and specific populations 435
+
+16.1 Introduction to equity in systematic reviews 435
+
+16.2 Formulation of the review 43716.3Identification of evidence _441_
+
+16.4Appraisal of evidence _443_
+
+16.5Synthesis of evidence _443_
+
+16.6Interpretation of evidence _444_
+
+16.7Concluding remarks _445_
+
+16.8Chapter information _445_
+
+16.9References _445_
+
+17Intervention complexity _451_
+
+17.1Introduction _451_
+
+17.2Formulation of the review _461_
+
+17.3Identification of evidence _468_
+
+17.4Appraisal of evidence _469_
+
+17.5Synthesis of evidence _469_
+
+17.6Interpretation of evidence _472_
+
+17.7Chapter information _473_
+
+17.8References _474_
+
+18Patient-reported outcomes _479_
+
+18.1Introduction to patient-reported outcomes _479_
+
+18.2Formulation of the review _480_
+
+18.3Appraisal of evidence _482_
+
+18.4Synthesis and interpretation of evidence _485_
+
+18.5Chapter information _488_
+
+18.6References _489_
+
+19Adverse effects _493_
+
+19.1Introduction to issues in addressing adverse effects _493_
+
+19.2Formulation of the review _496_
+
+19.3Identification of evidence _500_
+
+19.4Appraisal of evidence _502_
+
+19.5Synthesis and interpretation of evidence _503_
+
+19.6Chapter information _504_
+
+19.7References _505_
+
+20Economic evidence _507_
+
+20.1Introduction _507_
+
+20.2Formulation of the review _512_
+
+20.3Identification of evidence _517_
+
+20.4Appraisal of evidence _519_
+
+20.5Synthesis and interpretation of evidence _519_
+
+20.6Chapter information _521_
+
+20.7References _522_
+
+21Qualitative evidence _525_
+
+21.1Introduction _525_* 21.2 Designs for synthesizing and integrating qualitative evidence with intervention reviews 526
+* 21.3 Defining qualitative evidence and studies 527
+* 21.4 Planning a qualitative evidence synthesis linked to an intervention review 528
+* 21.5 Question development 529
+* 21.6 Questions exploring intervention implementation 530
+* 21.7 Searching for qualitative evidence 531
+* 21.8 Assessing methodological strengths and limitations of qualitative studies 532
+* 21.9 Selecting studies to synthesize 533
+* 21.10 Selecting a qualitative evidence synthesis and data extraction method 534
+* 21.11 Data extraction 534
+* 21.12 Assessing the confidence in qualitative synthesized findings 537
+* 21.13 Methods for integrating the qualitative evidence synthesis with an intervention review 537
+* 21.14 Reporting the protocol and qualitative evidence synthesis 538
+* 21.15 Chapter information 539
+* 21.16 References 539
+
+Part Three Further topics 547
+* 22 Prospective approaches to accumulating evidence 549
+* 22.1 Introduction 549
+* 22.2 Evidence surveillance: active monitoring of the accumulating evidence 550
+* 22.3 Prospectively planned meta-analysis 554
+* 22.4 Statistical analysis of accumulating evidence 561
+* 22.5 Chapter information 564
+* 22.6 References 565
+* 23 Including variants on randomized trials 569
+* 23.1 Cluster-randomized trials 569
+* 23.2 Crossover trials 576
+* 23.3 Studies with more than two intervention groups 585
+* 23.4 Chapter information 590
+* 23.5 References 591
+* 24 Including non-randomized studies on intervention effects 595
+* 24.1 Introduction 595
+* 24.2 Developing criteria for including non-randomized studies of interventions 601
+* 24.3 Searching for non-randomized studies of interventions 606
+* 24.4 Selecting studies and collecting data 608
+* 24.5 Assessing risk of bias in non-randomized studies 610
+* 24.6 Synthesis of results from non-randomized studies 611
+* 24.7 Interpretation and discussion 614
+* 24.8 Chapter information 617
+* 24.9 References 617* 25Assessing risk of bias in a non-randomized study 621
+* 25.1 Introduction 622
+* 25.2Biases in non-randomized studies 623
+* 25.3The ROBINS-I tool 626
+* 25.4Risk of bias in follow-up (cohort) studies 632
+* 25.5Risk of bias in uncontrolled before-after studies (including interrupted time series) 635
+* 25.6Risk of bias in controlled before-after studies 638
+* 25.7Chapter information 640
+* 25.8References 640
+* 26Individual participant data 643
+* 26.1Introduction 643
+* 26.2Collecting IPD 647
+* 26.3Managing and checking IPD 650
+* 26.4Analysis of IPD 652
+* 26.5Reporting IPD reviews 655
+* 26.6Apraising the quality of IPD reviews 655
+* 26.7Chapter information 655
+* 26.8References 655
+
+## Contributors
+
+_AKI, Elie A_
+
+Department of Internal Medicine
+
+American University of Beirut Medical
+
+Center
+
+Beirut
+
+Lebanon
+
+Titusville, NJ
+
+USA
+
+_Altman, Douglas G\({}^{*}\)_
+
+Centre for Statistics in Medicine
+
+University of Oxford
+
+Oxford
+
+UK
+
+_Aluko, Patricia_
+
+Institute of Health and Society
+
+Newcastle University
+
+Newcastle upon Tyne
+
+UK
+
+_Askie, Lisa M_
+
+NHMRC Clinical Trials Centre
+
+University of Sydney
+
+Sydney
+
+Australia
+
+_Beaton, Dorcas E_
+
+Institute for Work & Health
+
+Toronto, Ontario
+
+Canada
+
+_Berlin, Jesse A_
+
+Department of Epidemiology
+
+Johnson & Johnson
+
+_Bautron, Isabelle_
+
+Methods team, Centre of Research
+
+in Epidemiology and Statistics
+
+(CRESS-UMR1153),
+
+INSERM/Paris Descartes University;Centre d' Epidemiologie Clinique
+
+Assistance Publique des hopitaux de Paris;
+
+Cochrane France
+
+Paris
+
+France
+
+_Brennan, Sue E_
+
+Cochrane Australia
+
+School of Public Health and
+
+Preventive Medicine
+
+Monash University
+
+Melbourne
+
+Australia
+
+_Briel, Matthias_
+
+Department of Clinical Research
+
+University of Basel
+
+Basel
+
+Switzerland
+
+_Briscoe, Simon_
+
+College of Medicine and Health
+
+University of Exeter
+
+Exeter
+
+UK
+
+_Busse, Jason W_
+
+Department of Anesthesia
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+_Caldwell, Deborah M_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Cargo, Margaret_
+
+Health Research Institute
+
+University of Canberra
+
+Canberra
+
+Australia
+
+_Carrasco-Labra, Alonso_
+
+Department of Health Research Methods,
+
+Evidence and Impact (HEI)
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+Department of Oral and Craniofacial
+
+Health Science
+
+University of North Carolina at Chapel Hill
+
+Chapel Hill, NC
+
+USA
+
+_Chaimani, Anna_
+
+METHODS team Centre of Research in Epidemiology and Statistics
+
+Sorbonne Paris Cite (CRESS-UMR1153),
+
+INSERM/Paris Descartes University
+
+Paris
+
+France
+
+_Chandler, Jacqueline_
+
+Wessex Academic Health Science Network
+
+University Hospital Southampton
+
+Southampton
+
+UK
+
+_Christensen, Robin_
+
+Musculoskeletal Statistics Unit
+
+The Parker Institute
+
+Bispebjerg and Frederiksberg Hospital
+
+Copenhagen
+
+Denmark
+
+_Clarke, Mike_
+
+Northern Ireland Methodology Hub
+
+Centre for Public Health
+
+Queen's University Belfast
+
+Belfast
+
+Northern Ireland
+
+_Craig, Dawn_
+
+Institute of Health and Society
+
+Newcastle University
+
+Newcastle upon Tyneda Costa, Bruno R_
+
+Applied Health Research Centre
+
+St. Michael's Hospital
+
+Toronto, Ontario
+
+Canada
+
+_Deeks, Jonathan J_
+
+Institute of Applied Health Research
+
+University of Birmingham
+
+Birmingham
+
+UK
+
+_Devji, Tahira_
+
+Department of Health Research Methods,
+
+Evidence and Impact (HEI)
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+_Drummond, Michael_
+
+Centre for Health Economics
+
+University of York
+
+York
+
+UK
+
+_Elbers, Roy G_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_El Dib, Regina_
+
+Institute of Science and Technology
+
+UNESP - Univ Estadual Paulista
+
+Sao Jose dos Campos
+
+Brazil
+
+_Eldridge, Sandra_
+
+Centre for Primary Care and Public Health
+
+Public Health
+
+Blizard Institute
+
+Barts and The London
+
+School of Medicine and Dentistry
+
+Queen Mary University of London
+
+London
+
+UK
+
+_Elliott, Julian H_
+
+Cochrane Australia
+
+Monash University
+
+Melbourne
+
+Australia
+
+_Flemming, Kate_
+
+Department of Health Sciences
+
+University of York
+
+York
+
+UK
+
+_Gagnier, Joel J_
+
+Department of Orthopaedic Surgery
+
+Epidemiology
+
+University of Michigan
+
+Ann Arbor, MI
+
+USA
+
+_Garside, Ruth_
+
+European Centre for Environment and Human Health
+
+University of Exeter Medical School
+
+University of Exeter
+
+Truro
+
+UK
+
+_Ghersi, Davina_
+
+Research Policy and Translation
+
+National Health and Medical
+
+Research Council
+
+Canberra
+
+Australia
+
+_Glanville, Julie_
+
+York Health Economics Consortium
+
+York
+
+UK
+
+_Glasziou, Paul_
+
+Institute for Evidence-Based Healthcare
+
+Bond University
+
+Queensland
+
+Australia
+
+_Golder, Su_
+
+Department of Health Sciences
+
+University of York
+
+York
+
+UK_Graybill, Erin_
+
+Department of Economics
+
+Newcastle University
+
+Business School
+
+Newcastle upon Tyne
+
+UK
+
+_Guyatt, Gordon H_
+
+Department of Health Research Methods,
+
+Evidence and Impact (HEI)
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+_Hannes, Karin_
+
+Social Research Methodology Group
+
+Faculty of Social Sciences
+
+KU Leuven
+
+Leuven
+
+Belgium
+
+_Harden, Angela_
+
+Institute of Health and Human
+
+Development
+
+University of East London
+
+London
+
+UK
+
+_Harris, Janet_
+
+School of Health and Related Research
+
+University of Sheffield
+
+Sheffield
+
+UK
+
+_Hartling, Lisa_
+
+Department of Pediatrics, Faculty of
+
+Medicine & Dentistry
+
+University of Alberta
+
+Edmonton, Alberta
+
+Canada
+
+_Henderson, Catherine_
+
+Personal Social Services Unit
+
+London School of Economics and
+
+Political Science
+
+London
+
+UK
+
+_Heman, Miguel A_
+
+Departments of Epidemiology and
+
+Biostatistics
+
+Harvard T.H. Chan School of
+
+Public Health
+
+Boston, MA
+
+USA
+
+_Higgins, Julian PT_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Hobjartsson, Asbjem_
+
+Centre for Evidence-Based
+
+Medicine Odense (CEBMO)
+
+Odense University Hospital
+
+Odense
+
+Denmark
+
+_Johnston, Bradley C_
+
+Department of Community Health and Epidemiology
+
+Dalhousie University
+
+Halifax, Nova Scotia
+
+Canada
+
+_Johnston, Renea V_
+
+Monash Department of Clinical
+
+Epidemiology, Cabrini Institute
+
+School of Public Health and
+
+Preventive Medicine,
+
+Monash University
+
+Melbourne
+
+Australia
+
+_Jull, Janet_
+
+School of Rehabilitation Therapy
+
+Queen's University
+
+Kingston, Ontario
+
+Canada
+
+_Junqueira, Daniela R_
+
+Faculty of Medicine and Dentistry
+
+University of Alberta
+
+Edmonton, Alberta
+
+CanadaKlassen, Terry Manitoba Institute of Child Health Winnipeg, Manitoba Canada &Lundh, Andreas Centre for Evidence-Based Medicine Odense (CEBMO) Odense University Hospital Odense Denmark &Kneale, Dylan EPPI-Centre, Institute of Education University College London London &Lyddiatt, Anne Ingersoll, Ontario Canada &Kristjansson, Elizabeth School of Psychology Faculty of Social Sciences University of Ottawa Ottawa, Ontario Canada &Lasserson, Toby J Editorial & Methods Department Cochrane Central Executive London UK &Larserson, Toby J Editorial & Methods Department Cochrane Central Executive London UK &McAleenan, Alexandra Population Health Sciences Bristol Medical School University of Bristol Bristol Bristol UK &McKenzie, Joanne E School of Public Health and Preventive Medicine Monash University Melbourne Australia &Metzendorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Germany &Maelemorf, Maria-Inti Institute of General Practice Medical Faculty of the Heinrich-Heine-University Dusseldorf Dusseldorf Dusseldorf Germany &MaelemNoyes, Jane School of Health Sciences Bangor University Bangor UK &Petkovic, Jennifer Bruyere Research Institute University of Ottawa Ottawa, Ontario Canada &Ostelo, Raymond W Department of Epidemiology and Biostatistics Amsterdam UMC Vrije Universiteit Amsterdam Amsterdam The Netherlands &Petticrew, Mark Faculty of Public Health and Policy London School of Hygiene and Tropical Medicine London UK &Rader, Tamara Evidence Standards Canadian Agency for Drugs and Technologies in Health Ottawa, Ontario Canada &Raeves, Barnaby C Translational Health Sciences Bristol Medical School University of Bristol Bristol Bristol UK &Pettenkofer School of Public Health Institute for Medical Information Processing, Biometry and Epidemiology LMU Munich Germany &Robalino, Shannon Institute of Health and Society Newcastle University Newcastle upon Tyne UK &Rudelino, Shannon Institute of Health and Society Newcastle University Newcastle upon Tyne UK &Sannan,_Ryan, Rebecca E_
+
+Cochrane Consumers and
+
+Communication Group
+
+Centre for Health Communication and
+
+Participation
+
+La Trobe University
+
+Melbourne
+
+Australia
+
+_Salanti, Georgia_
+
+Institute of Social and Preventive
+
+Medicine
+
+University of Bern
+
+Bern
+
+Switzerland
+
+_Santesso, Nancy_
+
+Department of Health Research Methods
+
+Evidence and Impact (HEI)
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Schunemann, Holger J_
+
+Departments of Health Research
+
+Methods, Evidence, and Impact (HEI)
+
+and of Medicine
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+_Shea, Beverley_
+
+Department of Medicine,
+
+Ottawa Hospital Research Institute;
+
+School of Epidemiology and
+
+Public Health, University of Ottawa
+
+Ottawa, Ontario
+
+Canada
+
+_Shemilt, Ian_
+
+EPPI-Centre
+
+University College London
+
+London
+
+UK
+
+_Shokraneh, Farhad_
+
+Cochrane Schizophrenia Group
+
+Division of Psychiatry and Applied Psychology
+
+Institute of Mental Health
+
+School of Medicine
+
+University of Nottingham
+
+Nottingham
+
+UK
+
+_Santesso, Nancy_
+
+Department of Health Research Methods
+
+Evidence and Impact (HEI)
+
+McMaster University
+
+Hamilton, Ontario
+
+Canada
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Savovic, Jelena_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+Germany
+
+_Skoetz, Nicole_
+
+Department of Internal Medicine
+
+University Hospital of Cologne
+
+Cologne
+
+Germany
+
+_Stene, Jonathan AC_
+
+Population Health Sciences
+
+Bristol Medical School
+
+University of Bristol
+
+Bristol
+
+UK
+
+_Stewart, Lesley A_
+
+Centre for Reviews and Dissemination_
+
+University of York
+
+York
+
+UK_Stott, David J_
+
+Academic Section of Geriatric Medicine
+
+Institute of Cardiovascular and Medical
+
+Sciences
+
+University of Glasgow
+
+Glasgow
+
+UK
+
+_Takwoingi, Yemisi_
+
+Institute of Applied Health Research
+
+University of Birmingham
+
+Birmingham
+
+UK
+
+_Tugwell, Peter_
+
+Department of Medicine & School of
+
+Epidemiology and Public Health,
+
+Faculty of Medicine,
+
+University of Ottawa;
+
+Clinical Epidemiology Program,
+
+Ottawa Hospital Research Institute
+
+Ottawa, Ontario
+
+Canada
+
+_Ueffing, Erin_
+
+Centre for Practice-Changing Research
+
+Ottawa Hospital Research Institute
+
+Ottawa, Ontario
+
+Canada
+
+_Vale, Luke_
+
+Health Economics Group
+
+Institute of Health and Society
+
+Newcastle University
+
+Newcastle upon Tyne
+
+UK
+
+_Vist, Gunn E_
+
+Department of Preventive, Health
+
+Promotion and Organisation of Care
+
+Norwegian Institute of Public Health
+
+Oslo
+
+Norway
+
+_Vohra, Sunita_
+
+Department of Pediatrics
+
+Faculty of Medicine & Dentistry
+
+University of Alberta
+
+Edmonton, Alberta
+
+CanadaWelch, Vivian A
+
+Bruyere Research Institute
+
+Ottawa, Ontario
+
+Canada
+
+Wells, George A
+
+School of Epidemiology and Public
+
+Health, University of Ottawa;
+
+University of Ottawa Heart Institute
+
+Ottawa, Ontario
+
+Canada
+
+Wileland, L Susan
+
+Center for Integrative Medicine
+
+Department of Family and Community
+
+Medicine
+
+University of Maryland School of Medicine
+
+Baltimore, MD
+
+USA
+
+Williams, Katrina
+
+Department of Paediatrics,
+
+Monash University;
+
+Developmental Paediatrics,
+
+Monash Children's Hospital;
+
+Neurodisability and Rehabilitation,
+
+Murdoch Children's Research Institute
+
+Melbourne
+
+Australia
+
+## Preface
+
+'First, do no harm' is a principle to which those who would intervene in the lives of other people are often called to ascribe. However, in this era of data deluge, it is not possible for individual decision makers to ensure that their decisions are informed by the latest, reliable, research knowledge; and without reliable information to guide them, they can cause harm, even though their intentions may be good. This is the core problem that the founder of Cochrane, Sir lain Chalmers, aimed to address through the provision of systematic reviews of reliable research.
+
+By synthesizing the results of individual studies, systematic reviews present a summary of all the available evidence to answer a question, and in doing so can uncover important knowledge about the effects of healthcare interventions. Systematic reviews undertaken by Cochrane (Cochrane Reviews) present reliable syntheses of the results of multiple studies, alongside an assessment of the possibility of bias in the results, contextual factors influencing the interpretation and applicability of results, and other elements that can affect certainty in decision making. They reduce the time wasted by individuals searching for and appraising the same studies, and also aim to reduce research waste by ensuring that future studies can build on the body of studies already completed.
+
+A systematic review attempts to collate all empirical evidence that fits pre-specified eligibility criteria in order to answer a specific research question. It uses explicit, systematic methods that are selected with a view to minimizing bias, thus providing more reliable findings from which conclusions can be drawn and decisions made. The key characteristics of a systematic review are:
+
+* a clearly stated set of objectives with pre-defined eligibility criteria for studies;
+* an explicit, reproducible methodology;
+* a systematic search that attempts to identify all studies that meet the eligibility criteria;
+* an assessment of the validity of the findings of the included studies, for example through the assessment of risk of bias; and
+* a systematic presentation, and synthesis, of the characteristics and findings of the included studies.
+
+For twenty-five years, Cochrane Reviews have supported people making healthcare decisions, whether they are health professionals, managers, policy makers, or individuals making choices for themselves and their families. The _Cochrane Handbook forSystematic Reviews of Interventions_ (the _Handbook_) provides guidance to authors for this work.
+
+## About Cochrane
+
+Cochrane is a global network of health practitioners, researchers, patient advocates and others, with a mission to promote evidence-informed health decision making by producing high quality, relevant, accessible systematic reviews and other synthesized research evidence (www.cochrane.org). Founded as The Cochrane Collaboration in 1993, it is a not-for-profit organization whose members aim to produce credible, accessible health information that is free from commercial sponsorship and other conflicts of interest.
+
+Cochrane works collaboratively with health professionals, policy makers and international organizations such as the World Health Organization (WHO) to support the development of evidence-informed guidelines and policy. WHO guidelines on critical public health issues such as breastfeeding (2017) and malaria (2015), and the WHO Essential Medicines List (2017) are underpinned by dozens of Cochrane Reviews.
+
+There are many examples of the impact of Cochrane Reviews on health and health care. Influential reviews of corticosteroids for women at risk of giving birth prematurely, treatments for macular degeneration and tranexamic acid for trauma patients with bleeding have demonstrated the effectiveness of these life-changing interventions and influenced clinical practice around the world. Other reviews of anti-arrhythmic drugs for atrial fibrillation and neuraminidase inhibitors for influenza have raised important doubts about the effectiveness of interventions in common use.
+
+Cochrane Reviews are published in full online in the _Cochrane Database of Systematic Reviews_, which is a core component of the Cochrane Library (www.theochranelibrary.com). The Cochrane Library was first published in 1996, and is now an online collection of multiple databases.
+
+## The evidence for Cochrane methodology
+
+While Cochrane was one of the earliest organizations to produce and publish systematic reviews, there are now many organizations and journals doing so. One of the key elements that sets Cochrane apart is its rigorous methods, and Cochrane has played a unique role in fostering the development of methodology for systematic reviews throughout its history. Cochrane Methods Groups are voluntary collaborations of some of the world's leading methodological researchers in statistics, information retrieval, bias, qualitative methods, and many other specialist areas (see https://methods. Cochrane.org). These Methods Groups support and disseminate methods research that identifies the most effective and efficient methods for systematic reviews, minimizing bias and increasing the appropriate analysis and interpretation of results.
+
+The use of these rigorous methods is challenging and often time-consuming, but the recommendations are not made for their own sake. As McKenzie and colleagues wrote, "Our confidence in the findings of systematic reviews rests on the evidence base underpinning the methods we use. Just as there are consequences arising from the choices we make about health and social care interventions, so too are there consequences when we choose the methods to use in systematic reviews." (McKenzie et al, Cochrane Database of Systematic Reviews 2015; 7: ED00010)
+
+With this in mind, the guidance in this _Handbook_ has been written by authors who are international leaders in their fields, many of whom are supported by the work of Cochrane Methods Groups.
+
+### Ongoing challenges for systematic reviews
+
+The landscape in which systematic reviews are conducted continues to evolve. Old and emerging challenges continue to spark debate, research and innovation.
+
+The time required to complete a full systematic review, which is often more than two years, is a barrier both for author teams (representing a considerable commitment of often volunteer time) and for decision makers (who often require evidence within much shorter time frames). Methodology for undertaking reviews more rapidly is developing quickly. However, difficult choices are required in the trade-off between rigour and speed. The rise of technological solutions offers much potential, including collaboration tools, online crowd sourcing and automation of many aspects of the review process. Alongside consideration of appropriate ways to prioritize work, technology is also supporting more efficient approaches to keeping reviews up to date, with some reviews moving towards a 'living' systematic review model of very frequent, even continuous updates.
+
+Cochrane Reviews have always encompassed complex questions of multi-component interventions, health systems and public health, and the challenging issues that arise from many of these reviews have prompted considerable thought and effort. Cochrane Reviews have always incorporated non-randomized studies where appropriate to the question, and a wider range of data sources is increasingly relevant to reviews, from the unpublished clinical study reports produced by pharmaceutical companies, to novel challenges in appraising and interpreting 'big data' repositories. The use of systematic reviews is expanding, and new methods developing, in areas such as environmental exposure and prognosis.
+
+These conversations will continue, and new questions will continue to arise. Cochrane will continue to contribute actively to methodological development and application in each of these areas, continually striving to improve both the validity and usefulness of the reviews to decision makers.
+
+### Undertaking a Cochrane Review
+
+Preparing a Cochrane Review is complex and involves many judgements. Authors work closely with Cochrane editorial teams in the production of reviews, supplying a highly structured format for both its protocols and reviews to guide authors on the information they should report. Cochrane groups and other research groups increasingly use priority-setting methods to engage stakeholders such as patients, the public, policy makers and healthcare professionals to understand from them the most important uncertainties or information gap. Since its inception, Cochrane has advocated for routine updating of systematic reviews to take account of new evidence. In some fast-moving topics frequent updating is needed to ensure that review conclusions remain relevant.
+
+While some authors new to Cochrane Reviews have training and experience in conducting other systematic reviews, many do not. Training for review authors is delivered in many countries by regional Cochrane groups or by the Cochrane Methods Groups responsible for researching and developing the methods used on Cochrane Reviews. In addition, Cochrane produces an extensive range of online learning resources. Detailed information is available via [https://training.cochrane.org](https://training.cochrane.org). Training materials and opportunities for training are continually developed and updated to reflect the evolving Cochrane methods and the needs of contributors.
+
+## About this _Handbook_
+
+Work on a handbook to support authors of Cochrane Reviews began in 1993, and the first version was published in May 1994. Since then it has evolved and grown, through the stewardship of several editorial teams, with regular updating of its contents being punctuated by major new editions. This book represents Version 6 of the _Handbook_, the first major revision since the first print edition of the _Handbook_ was published in 2008.
+
+The book is divided into three parts. Part One provides the core methodology for undertaking systematic reviews on the effects of health interventions, with a particular emphasis on reviewing randomized trials. Part Two provides considerations for tackling these systematic reviews from different perspectives, such as when thinking about specific populations, or complex interventions, or particular types of outcomes. Part Three covers a range of further topics, including reviewing evidence other than straightforward randomized trials. The online version of the _Handbook_ has an addition part, describing the particular organizational and procedural considerations when working specifically with Cochrane.
+
+For this edition, each chapter that provides new or substantively updated guidance has been rigorously peer reviewed to ensure the guidance presented reflects the state of the science and is appropriate and efficient for use by Cochrane authors. The _Handbook_ is updated regularly to reflect advances in systematic review methodology and in response to feedback from users. Please refer to [https://training.cochrane.org/handbook](https://training.cochrane.org/handbook) for the most recent online version, for interim updates to the guidance and for details of previous versions of the _Handbook_. Feedback and corrections to the _Handbook_ are also welcome via the contact details on the website.
+
+## What's new in this edition
+
+In this edition, every chapter of the _Handbook_ has been extensively revised, new chapters added, and authors familiar with previous versions will find it valuable to re-read any chapter of interest.
+
+In particular, this edition incorporates the following major new chapters and areas of guidance:
+
+* Expanded advice on assessing the risk of bias in included studies (Chapter 7), including Version 2 of the Cochrane Risk of Bias tool (Chapter 8) and the ROBINS-I tool for assessing risk of bias in non-randomized studies (Chapter 25).
+* New guidance on summarizing study characteristics and preparing for synthesis (Chapters 3 and 9).
+* New guidance on network meta-analysis (Chapter 11).
+* New guidance on synthesizing results using methods other than meta-analysis (Chapter 12).
+* Updated guidance on assessing the risk of bias due to missing results (reporting biases, Chapter 13).
+* New guidance addressing intervention complexity (Chapter 17).
+
+## How to cite this book
+
+Higgins JPT, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, Welch VA (editors). _Cochrane Handbook for Systematic Reviews of Interventions_. 2nd Edition. Chichester (UK): John Wiley & Sons, 2019.
+
+## Acknowledgements
+
+We thank all of our contributing authors and chapter editors for their patience and responsiveness in preparing this _Handbook_. We are also indebted to all those who have contributed to previous versions of the _Handbook_, and particularly to past editors Rachel Churchill, Sally Green, Phil Alderson, Mike Clarke, Cynthia Mulrow and Andy Oxman.
+
+Many contributed constructive and timely peer review for this edition. We thank Zhenggang Bai, Hilda Bastian, Jesse Berlin, Lisa Bero, Jane Blazeby, Jacob Burns, Chris Cates, Nathorn Chaiyakunapruk, Kay Dickersin, Christopher Eccleston, Sam Egger, Cindy Farquhar, Nicole Fusco, Hernando Guillermo Gaitan Duarte, Paul Garner, Claire Glenton, Su Golder, Helen Handoll, Jamie Hartmann-Boyce, Joseph Lau, Simon Lewin, Jane Marjoribanks, Evan Mayo-Wilson, Steve McDonald, Emma Mead, Richard Morley, Sylivia Nalubega, Gerry Richardson, Richard Riley, Elham Shakibazadeh, Dayane Silveira, Jonathan Sterne, Alex Sutton, Ozge Tuncalp, Peter von Philipsborn, Evelyn Whitlock, Jack Wilkinson. We thank Tamara Lotfi from the Secretariat for the Global Evidence Synthesis Initiative (GESI) and GESI for assisting with identifying peer referees, and Paul Garner and Taryn Young for their liaison with Learning Initiative for eXperimenced Authors (LIXA).
+
+Specific administrative support for this version of the _Handbook_ was provided by Laura Mellor, and we are deeply indebted to Laura for her many contributions. We would also like to thank staff at Wiley for their patience, support and advice, including Priyanka Gibbons (Commissioning Editor), Jennifer Seward (Senior Project Editor), Deirdre Barry (Senior Editorial Assistant) and Tom Bates (Senior Production Editor).

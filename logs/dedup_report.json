@@ -1,0 +1,15 @@
+{
+  "dedup_report": {
+    "input_records": 0,
+    "duplicates_removed": 0,
+    "remaining": 0,
+    "by_rule": {
+      "doi": 0,
+      "pmid": 0,
+      "pmcid": 0,
+      "fuzzy": 0
+    },
+    "generated_at": null,
+    "notes": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "prisma": {
+    "identification": {
+      "records_identified": 0,
+      "records_removed_before_screening": {
+        "duplicates": 0,
+        "other_reasons": 0
+      }
+    },
+    "screening": {
+      "records_screened": 10,
+      "records_excluded": 0
+    },
+    "eligibility": {
+      "reports_sought_for_retrieval": 0,
+      "reports_not_retrieved": 0,
+      "reports_assessed_for_eligibility": 0,
+      "reports_excluded": [
+        {
+          "reason": "not comparative",
+          "n": 3
+        }
+      ]
+    },
+    "included": {
+      "studies_included_in_review": 0,
+      "reports_included_in_review": 0
+    },
+    "updated_at": "2026-01-31T14:27:05+00:00"
+  },
+  "updated_at": null
+}

@@ -1,0 +1,1198 @@
+{
+  "id": "https://openalex.org/W2105610837",
+  "doi": "https://doi.org/10.1016/j.jaad.2007.06.006",
+  "title": "Adapalene-benzoyl peroxide, a fixed-dose combination for the treatment of acne vulgaris: Results of a multicenter, randomized double-blind, controlled study",
+  "display_name": "Adapalene-benzoyl peroxide, a fixed-dose combination for the treatment of acne vulgaris: Results of a multicenter, randomized double-blind, controlled study",
+  "publication_year": 2007,
+  "publication_date": "2007-07-27",
+  "ids": {
+    "openalex": "https://openalex.org/W2105610837",
+    "doi": "https://doi.org/10.1016/j.jaad.2007.06.006",
+    "mag": "2105610837",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17655969"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.jaad.2007.06.006",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.jaad.2007.06.006",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S58727509",
+      "display_name": "Journal of the American Academy of Dermatology",
+      "issn_l": "0190-9622",
+      "issn": [
+        "0190-9622",
+        "1097-6787"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of the American Academy of Dermatology",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5075725987",
+        "display_name": "Diane Thiboutot",
+        "orcid": "https://orcid.org/0000-0002-7342-2357"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I82783531",
+          "display_name": "Penn State Milton S. Hershey Medical Center",
+          "ror": "https://ror.org/01h22ap11",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I82783531"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Diane M. Thiboutot",
+      "raw_affiliation_strings": [
+        "The Pennsylvania State University College of Medicine, Milton S. Hershey Medical Center, Hershey, Pennsylvania, USA. dthiboutot@psu.edu",
+        "The Pennsylvania State University College of Medicine, Milton S. Hershey Medical Center, Hershey, Pennsylvania"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Pennsylvania State University College of Medicine, Milton S. Hershey Medical Center, Hershey, Pennsylvania, USA. dthiboutot@psu.edu",
+          "institution_ids": [
+            "https://openalex.org/I82783531"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Pennsylvania State University College of Medicine, Milton S. Hershey Medical Center, Hershey, Pennsylvania",
+          "institution_ids": [
+            "https://openalex.org/I82783531",
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103527846",
+        "display_name": "Jonathan Weiss",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116970",
+          "display_name": "Gwinnett Dermatology",
+          "ror": "https://ror.org/02fwc3866",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210116970"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan Weiss",
+      "raw_affiliation_strings": [
+        "Gwinett Dermatology, P.C., Snellville, Georgia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gwinett Dermatology, P.C., Snellville, Georgia",
+          "institution_ids": [
+            "https://openalex.org/I4210116970"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051517637",
+        "display_name": "A Bucko",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210126752",
+          "display_name": "Academic Dermatology Associates",
+          "ror": "https://ror.org/02x25m361",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210126752"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alicia Bucko",
+      "raw_affiliation_strings": [
+        "Academic Dermatology Associates, Albuquerque, New Mexico"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Academic Dermatology Associates, Albuquerque, New Mexico",
+          "institution_ids": [
+            "https://openalex.org/I4210126752"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071907436",
+        "display_name": "Lawrence F. Eichenfield",
+        "orcid": "https://orcid.org/0000-0002-2760-0474"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087384",
+          "display_name": "Rady Children's Hospital-San Diego",
+          "ror": "https://ror.org/00414dg76",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087384"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1288882113",
+          "display_name": "Boston Children's Hospital",
+          "ror": "https://ror.org/00dvg7y05",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1288882113"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lawrence Eichenfield",
+      "raw_affiliation_strings": [
+        "Children's Hospital San Diego, San Diego, California",
+        "Children’s Hospital San Diego, San Diego, California"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Children's Hospital San Diego, San Diego, California",
+          "institution_ids": [
+            "https://openalex.org/I4210087384"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Children’s Hospital San Diego, San Diego, California",
+          "institution_ids": [
+            "https://openalex.org/I1288882113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109973523",
+        "display_name": "Terry M. Jones",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210136106",
+          "display_name": "J&S Studies",
+          "ror": "https://ror.org/045xnj057",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210136106"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Terry Jones",
+      "raw_affiliation_strings": [
+        "J and S Studies, Inc, Bryan, Texas"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "J and S Studies, Inc, Bryan, Texas",
+          "institution_ids": [
+            "https://openalex.org/I4210136106"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031296859",
+        "display_name": "Scott D Clark",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799870806",
+          "display_name": "Longmont United Hospital",
+          "ror": "https://ror.org/047ge9e14",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799870806"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Scott Clark",
+      "raw_affiliation_strings": [
+        "Longmont Clinic PC, Longmont, Colorado"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Longmont Clinic PC, Longmont, Colorado",
+          "institution_ids": [
+            "https://openalex.org/I2799870806"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100649070",
+        "display_name": "Yin Liu",
+        "orcid": "https://orcid.org/0000-0001-6014-061X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20089843",
+          "display_name": "Princeton University",
+          "ror": "https://ror.org/00hx57361",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20089843"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210108170",
+          "display_name": "Galderma (United States)",
+          "ror": "https://ror.org/01rdxvn05",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210108170",
+            "https://openalex.org/I4210163806"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yin Liu",
+      "raw_affiliation_strings": [
+        "Galderma Research & Development, Princeton, New Jersey",
+        "Galderma Research and Development, Princeton, New Jersey"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Galderma Research & Development, Princeton, New Jersey",
+          "institution_ids": [
+            "https://openalex.org/I4210108170"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Galderma Research and Development, Princeton, New Jersey",
+          "institution_ids": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042000495",
+        "display_name": "Michael Graeber",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210108170",
+          "display_name": "Galderma (United States)",
+          "ror": "https://ror.org/01rdxvn05",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210108170",
+            "https://openalex.org/I4210163806"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I20089843",
+          "display_name": "Princeton University",
+          "ror": "https://ror.org/00hx57361",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Graeber",
+      "raw_affiliation_strings": [
+        "Galderma Research & Development, Princeton, New Jersey",
+        "Galderma Research and Development, Princeton, New Jersey"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Galderma Research & Development, Princeton, New Jersey",
+          "institution_ids": [
+            "https://openalex.org/I4210108170"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Galderma Research and Development, Princeton, New Jersey",
+          "institution_ids": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5065423939",
+        "display_name": "Sewon Kang",
+        "orcid": "https://orcid.org/0000-0002-7841-9392"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan–Ann Arbor",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sewon Kang",
+      "raw_affiliation_strings": [
+        "University of Michigan, Ann Arbor, Michigan",
+        "University of Michigan , Ann Arbor, Michigan,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Michigan, Ann Arbor, Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan , Ann Arbor, Michigan,",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 9,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5075725987"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I130769515",
+    "https://openalex.org/I82783531"
+  ],
+  "apc_list": {
+    "value": 4200,
+    "currency": "USD",
+    "value_usd": 4200
+  },
+  "apc_paid": null,
+  "fwci": 13.1714851,
+  "has_fulltext": false,
+  "cited_by_count": 180,
+  "citation_normalized_percentile": {
+    "value": 0.98563645,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "57",
+    "issue": "5",
+    "first_page": "791",
+    "last_page": "799"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11553",
+    "display_name": "Acne and Rosacea Treatments and Effects",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2708",
+      "display_name": "Dermatology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11553",
+      "display_name": "Acne and Rosacea Treatments and Effects",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10837",
+      "display_name": "Dermatology and Skin Diseases",
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11033",
+      "display_name": "Contact Dermatitis and Allergies",
+      "score": 0.9818000197410583,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/adapalene",
+      "display_name": "Adapalene",
+      "score": 0.9840905666351318
+    },
+    {
+      "id": "https://openalex.org/keywords/tolerability",
+      "display_name": "Tolerability",
+      "score": 0.9261646866798401
+    },
+    {
+      "id": "https://openalex.org/keywords/medicine",
+      "display_name": "Medicine",
+      "score": 0.9086900949478149
+    },
+    {
+      "id": "https://openalex.org/keywords/acne",
+      "display_name": "Acne",
+      "score": 0.792098879814148
+    },
+    {
+      "id": "https://openalex.org/keywords/benzoyl-peroxide",
+      "display_name": "Benzoyl peroxide",
+      "score": 0.7477442026138306
+    },
+    {
+      "id": "https://openalex.org/keywords/fixed-dose-combination",
+      "display_name": "Fixed-dose combination",
+      "score": 0.6074357628822327
+    },
+    {
+      "id": "https://openalex.org/keywords/dermatology",
+      "display_name": "Dermatology",
+      "score": 0.6000322699546814
+    },
+    {
+      "id": "https://openalex.org/keywords/combination-therapy",
+      "display_name": "Combination therapy",
+      "score": 0.5233278274536133
+    },
+    {
+      "id": "https://openalex.org/keywords/randomized-controlled-trial",
+      "display_name": "Randomized controlled trial",
+      "score": 0.511434018611908
+    },
+    {
+      "id": "https://openalex.org/keywords/adverse-effect",
+      "display_name": "Adverse effect",
+      "score": 0.507164478302002
+    },
+    {
+      "id": "https://openalex.org/keywords/randomization",
+      "display_name": "Randomization",
+      "score": 0.41667449474334717
+    },
+    {
+      "id": "https://openalex.org/keywords/internal-medicine",
+      "display_name": "Internal medicine",
+      "score": 0.2902243733406067
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777140388",
+      "wikidata": "https://www.wikidata.org/wiki/Q352348",
+      "display_name": "Adapalene",
+      "level": 5,
+      "score": 0.9840905666351318
+    },
+    {
+      "id": "https://openalex.org/C2778375690",
+      "wikidata": "https://www.wikidata.org/wiki/Q7814214",
+      "display_name": "Tolerability",
+      "level": 3,
+      "score": 0.9261646866798401
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9086900949478149
+    },
+    {
+      "id": "https://openalex.org/C2777673923",
+      "wikidata": "https://www.wikidata.org/wiki/Q79928",
+      "display_name": "Acne",
+      "level": 2,
+      "score": 0.792098879814148
+    },
+    {
+      "id": "https://openalex.org/C2778885487",
+      "wikidata": "https://www.wikidata.org/wiki/Q411424",
+      "display_name": "Benzoyl peroxide",
+      "level": 4,
+      "score": 0.7477442026138306
+    },
+    {
+      "id": "https://openalex.org/C2776623344",
+      "wikidata": "https://www.wikidata.org/wiki/Q5456317",
+      "display_name": "Fixed-dose combination",
+      "level": 2,
+      "score": 0.6074357628822327
+    },
+    {
+      "id": "https://openalex.org/C16005928",
+      "wikidata": "https://www.wikidata.org/wiki/Q171171",
+      "display_name": "Dermatology",
+      "level": 1,
+      "score": 0.6000322699546814
+    },
+    {
+      "id": "https://openalex.org/C2776999253",
+      "wikidata": "https://www.wikidata.org/wiki/Q1304270",
+      "display_name": "Combination therapy",
+      "level": 2,
+      "score": 0.5233278274536133
+    },
+    {
+      "id": "https://openalex.org/C168563851",
+      "wikidata": "https://www.wikidata.org/wiki/Q1436668",
+      "display_name": "Randomized controlled trial",
+      "level": 2,
+      "score": 0.511434018611908
+    },
+    {
+      "id": "https://openalex.org/C197934379",
+      "wikidata": "https://www.wikidata.org/wiki/Q2047938",
+      "display_name": "Adverse effect",
+      "level": 2,
+      "score": 0.507164478302002
+    },
+    {
+      "id": "https://openalex.org/C204243189",
+      "wikidata": "https://www.wikidata.org/wiki/Q1363085",
+      "display_name": "Randomization",
+      "level": 3,
+      "score": 0.41667449474334717
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.2902243733406067
+    },
+    {
+      "id": "https://openalex.org/C521977710",
+      "wikidata": "https://www.wikidata.org/wiki/Q81163",
+      "display_name": "Polymer",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C44228677",
+      "wikidata": "https://www.wikidata.org/wiki/Q181898",
+      "display_name": "Polymerization",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000152",
+      "descriptor_name": "Acne Vulgaris",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000068816",
+      "descriptor_name": "Adapalene",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001585",
+      "descriptor_name": "Benzoyl Peroxide",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001585",
+      "descriptor_name": "Benzoyl Peroxide",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003879",
+      "descriptor_name": "Dermatologic Agents",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003879",
+      "descriptor_name": "Dermatologic Agents",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004311",
+      "descriptor_name": "Double-Blind Method",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004338",
+      "descriptor_name": "Drug Combinations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009281",
+      "descriptor_name": "Naphthalenes",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009281",
+      "descriptor_name": "Naphthalenes",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016896",
+      "descriptor_name": "Treatment Outcome",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000152",
+      "descriptor_name": "Acne Vulgaris",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000068816",
+      "descriptor_name": "Adapalene",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001585",
+      "descriptor_name": "Benzoyl Peroxide",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001585",
+      "descriptor_name": "Benzoyl Peroxide",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003879",
+      "descriptor_name": "Dermatologic Agents",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003879",
+      "descriptor_name": "Dermatologic Agents",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004311",
+      "descriptor_name": "Double-Blind Method",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004338",
+      "descriptor_name": "Drug Combinations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009281",
+      "descriptor_name": "Naphthalenes",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009281",
+      "descriptor_name": "Naphthalenes",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016896",
+      "descriptor_name": "Treatment Outcome",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.jaad.2007.06.006",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.jaad.2007.06.006",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S58727509",
+        "display_name": "Journal of the American Academy of Dermatology",
+        "issn_l": "0190-9622",
+        "issn": [
+          "0190-9622",
+          "1097-6787"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the American Academy of Dermatology",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:17655969",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17655969",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the American Academy of Dermatology",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.7200000286102295
+    }
+  ],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 40,
+  "referenced_works": [
+    "https://openalex.org/W6678627447",
+    "https://openalex.org/W2167817109",
+    "https://openalex.org/W1965659086",
+    "https://openalex.org/W2072767089",
+    "https://openalex.org/W2798543220",
+    "https://openalex.org/W2017833528",
+    "https://openalex.org/W2144493708",
+    "https://openalex.org/W1976923360",
+    "https://openalex.org/W2134002686",
+    "https://openalex.org/W2086418510",
+    "https://openalex.org/W6716549545",
+    "https://openalex.org/W6717253035",
+    "https://openalex.org/W6602548977",
+    "https://openalex.org/W1978633527",
+    "https://openalex.org/W2132883190",
+    "https://openalex.org/W6715951918",
+    "https://openalex.org/W2021619085",
+    "https://openalex.org/W2054744077",
+    "https://openalex.org/W1986422601",
+    "https://openalex.org/W1998992552",
+    "https://openalex.org/W1974661312",
+    "https://openalex.org/W2153451641",
+    "https://openalex.org/W2020679313",
+    "https://openalex.org/W6628813520",
+    "https://openalex.org/W1969502034",
+    "https://openalex.org/W1981557598",
+    "https://openalex.org/W2022880272",
+    "https://openalex.org/W2100318044",
+    "https://openalex.org/W6602602294",
+    "https://openalex.org/W2315795079",
+    "https://openalex.org/W2418111873",
+    "https://openalex.org/W2123256380",
+    "https://openalex.org/W2417566653",
+    "https://openalex.org/W2414037466",
+    "https://openalex.org/W1471974055",
+    "https://openalex.org/W55905745",
+    "https://openalex.org/W61771070",
+    "https://openalex.org/W176182952",
+    "https://openalex.org/W1502188917",
+    "https://openalex.org/W66087059"
+  ],
+  "related_works": [
+    "https://openalex.org/W2185568115",
+    "https://openalex.org/W1940498900",
+    "https://openalex.org/W4283016225",
+    "https://openalex.org/W4386407853",
+    "https://openalex.org/W2976518386",
+    "https://openalex.org/W2521324618",
+    "https://openalex.org/W1169053151",
+    "https://openalex.org/W2994302005",
+    "https://openalex.org/W2573390118",
+    "https://openalex.org/W174068280"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 14
+    }
+  ],
+  "updated_date": "2026-01-13T01:12:25.745995",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "589",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "12840274",
+      "12832268",
+      "12800883"
+    ],
+    "translationset": [
+      {
+        "from": "adapalene[All Fields]",
+        "to": "\"adapalene\"[Supplementary Concept] OR \"adapalene\"[All Fields] OR \"adapalene\"[MeSH Terms]"
+      },
+      {
+        "from": "benzoyl peroxide[All Fields]",
+        "to": "\"benzoyl peroxide\"[Supplementary Concept] OR \"benzoyl peroxide\"[All Fields] OR \"benzoyl peroxide\"[MeSH Terms] OR (\"benzoyl\"[All Fields] AND \"peroxide\"[All Fields])"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "\"adapalene\"[Supplementary Concept]",
+        "field": "Supplementary Concept",
+        "count": "52",
+        "explode": "N"
+      },
+      {
+        "term": "\"adapalene\"[All Fields]",
+        "field": "All Fields",
+        "count": "1609",
+        "explode": "N"
+      },
+      "OR",
+      {
+        "term": "\"adapalene\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "53",
+        "explode": "Y"
+      },
+      "OR",
+      "GROUP",
+      {
+        "term": "\"benzoyl peroxide\"[Supplementary Concept]",
+        "field": "Supplementary Concept",
+        "count": "74",
+        "explode": "N"
+      },
+      {
+        "term": "\"benzoyl peroxide\"[All Fields]",
+        "field": "All Fields",
+        "count": "5365",
+        "explode": "N"
+      },
+      "OR",
+      {
+        "term": "\"benzoyl peroxide\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "75",
+        "explode": "Y"
+      },
+      "OR",
+      {
+        "term": "\"benzoyl\"[All Fields]",
+        "field": "All Fields",
+        "count": "31126",
+        "explode": "N"
+      },
+      {
+        "term": "\"peroxide\"[All Fields]",
+        "field": "All Fields",
+        "count": "399248",
+        "explode": "N"
+      },
+      "AND",
+      "GROUP",
+      "OR",
+      "GROUP",
+      "AND"
+    ],
+    "querytranslation": "(\"adapalene\"[Supplementary Concept] OR \"adapalene\"[All Fields] OR \"adapalene\"[MeSH Terms]) AND (\"benzoyl peroxide\"[Supplementary Concept] OR \"benzoyl peroxide\"[All Fields] OR \"benzoyl peroxide\"[MeSH Terms] OR (\"benzoyl\"[All Fields] AND \"peroxide\"[All Fields]))",
+    "errorlist": {
+      "phrasesnotfound": [],
+      "fieldsnotfound": []
+    }
+  }
+}
